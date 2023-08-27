@@ -39,23 +39,6 @@ include 'header.php'; ?>
 	</div>
 </section>
 <!--====  End of Hero Section  ====-->
-<section class="section pt-0 position-relative pull-top">\
-	<div data-v-09a97096="" class="content w-full max-w-6xl img-right no-bg">
-		<picture data-v-09a97096="" class="image card-image flex sm:rounded-3xl mb-5 md:mb-0 overflow-hidden transitionFix items-center justify-center"><img src="https://upload-cdn.careem.com/About_us_updt_48b263b2f9.png" alt="About_us_updt_48b263b2f9"></picture>
-		<div data-v-09a97096="" class="data">
-			<h3 data-v-09a97096="">About us</h3>
-			<div data-v-09a97096="" class="font-medium text-base leading-6 mb-6">
-				<p>Careem’s purpose is to simplify and improve the lives of people and build an awesome organisation that inspires.<br>
-					Learn more about our purpose, people and services.</p>
-			</div> <a data-v-09a97096="" href="/en-AE/about-us" class="button max-w-max rtl:ml-auto btn-secondary btn-small" title="Read more">
-				Read more
-				<!----></a>
-		</div>
-	</div>
-
-
-
-</section>
 
 <section class="section pt-0 position-relative pull-top">
 	<div class="container">
@@ -75,9 +58,24 @@ include 'header.php'; ?>
 					<i class="ti-thought text-primary h1"></i>
 					<h3 class="mt-4 text-capitalize h5 ">Aim</h3>
 					<p class="regular text-muted">To create 1 stop solution for everything, a streamlined all-in-one app hub, offering one all-inclusive mall of apps for ultimate convenience of all.</p>
-					</p>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<div class="rounded shadow p-5 bg-white">
+			<div class="row">
+				<div class="col-lg-8 col-md-4 col-sm-2 mt-md-0 ">
+					<h3 class="mt-4 text-capitalize h5 col-lg-8 col-sm-4">Benefits of All in one App</h3>
+					<p class="regular text-muted"></p>
+				</div>
+				<img src="" alt="" class="col-lg-4 col-md-2 radius-5x">
+			</div>
+			<div class="btn btn-download"><a href="about.php"></a></div>
 		</div>
 	</div>
 </section>
@@ -250,6 +248,24 @@ include 'header.php'; ?>
 					</a>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<div class="rounded shadow p-5 bg-white">
+			<div class="row">
+				<div class="col-lg-8 col-md-4 col-sm-2 mt-md-0 ">
+					<h3 class="mt-4 text-capitalize h5 col-lg-8 col-sm-4">About Us</h3>
+					<p class="regular text-muted">Introducing 'Gi1,' the super app that brings
+						together the apex of today's most popular
+						industries into a unified digital marvel.</p>
+				</div>
+				<img src="images/about/story-slider-01.jpg" alt="" class="col-lg-4 col-md-2 radius-5x">
+			</div>
+			<div class="btn btn-download"><a href="about.php">See More</a></div>
 		</div>
 	</div>
 </section>
