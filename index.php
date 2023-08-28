@@ -109,7 +109,7 @@ include 'header.php'; ?>
 			<div class="col-lg-6 mr-auto justify-content-center">
 				<!-- Feature mockup -->
 				<div class="image-content" data-aos="fade-left">
-					<img class="img-fluid" src="images/feature/feature-new-02.jpg" alt="ipad">
+					<img class="img-fluid" src="images/wel.png" alt="ipad">
 				</div>
 			</div>
 		</div>
@@ -175,7 +175,7 @@ include 'header.php'; ?>
 			<div class="col-lg-6 mr-auto justify-content-center">
 				<!-- Feature mockup -->
 				<div class="image-content" data-aos="fade-left">
-					<img class="img-fluid" src="images/feature/feature-new-02.jpg" alt="ipad">
+					<img class="img-fluid" src="images/assistant.png" style=" alt="ipad">
 				</div>
 			</div>
 		</div>
@@ -187,7 +187,7 @@ include 'header.php'; ?>
 			<div class="col-lg-6 ml-auto justify-content-center">
 				<!-- Feature Mockup -->
 				<div class="image-content" data-aos="fade-right">
-					<img class="img-fluid" src="images/feature/coinwish.png" alt="iphone">
+					<img class="img-fluid" src="images/chat.png" alt="iphone">
 				</div>
 			</div>
 			<div class="col-lg-6 mr-auto align-self-center">
@@ -231,7 +231,7 @@ include 'header.php'; ?>
 			<div class="col-lg-6 align-self-center">
 				<!-- Feature Image -->
 				<div class="service-thumb left" data-aos="fade-right">
-					<img class="img-fluid" src="images/feature/iphone-ipad.jpg" alt="iphone-ipad">
+					<img class="img-fluid p-4" src="images/livedone.png" alt="iphone-ipad">
 				</div>
 			</div>
 			<div class="col-lg-5 mr-auto align-self-center">
