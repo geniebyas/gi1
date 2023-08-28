@@ -83,6 +83,38 @@ include 'header.php'; ?>
 <!--==================================
 =            Feature Grid            =
 ===================================-->
+
+<section class="feature section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 ml-auto align-self-center">
+				<div class="feature-content">
+					<!-- Feature Title -->
+					<h2>Welcome to Gi1-Super App</h2>
+					<!-- Feature Description -->
+					<p>Introducing Gi1, the revolutionary
+						super app that integrates the
+						highest platforms and diverse
+						industries, providing a
+						comprehensive and professional
+						solution for all your needs.Gi1 simplifies your all activities,
+						offering seamless handling,
+						enhanced user experience, and
+						an efficient system, ensuring
+						productivity at every step. So,
+						optimize your all workflow with
+						only 1 super app.</p>
+				</div>
+			</div>
+			<div class="col-lg-6 mr-auto justify-content-center">
+				<!-- Feature mockup -->
+				<div class="image-content" data-aos="fade-left">
+					<img class="img-fluid" src="images/feature/feature-new-02.jpg" alt="ipad">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="feature section pt-0">
 	<div class="container">
 		<div class="row">
@@ -126,9 +158,7 @@ include 'header.php'; ?>
 					<!-- Feature Title -->
 					<h2>Genie Theme and AI app Assistant</h2>
 					<!-- Feature Description -->
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-						ea commodo consequat.</p>
+					<p>The enchanting world of 'Gi1', is inspired by the theme of Genie and Aladdin. A place of wonder where wishes come true with the power of your own AI assistant, a moden day 'GENIE' Experience a golden era of fulfillment and wonder as 'Gi1' grants your all desires effortlessly.</p>
 				</div>
 				<!-- Testimonial Quote -->
 				<div class="testimonial">
@@ -151,6 +181,36 @@ include 'header.php'; ?>
 		</div>
 	</div>
 </section>
+<section class="feature section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 ml-auto justify-content-center">
+				<!-- Feature Mockup -->
+				<div class="image-content" data-aos="fade-right">
+					<img class="img-fluid" src="images/feature/coinwish.png" alt="iphone">
+				</div>
+			</div>
+			<div class="col-lg-6 mr-auto align-self-center">
+				<div class="feature-content">
+					<!-- Feature Title -->
+					<h2>Advanced Socializing Chat Section</h2>
+					<!-- Feature Description -->
+					<p class="desc">Gi1 has powerful chat section with the help of AI our chat section should be more advanced and user freindly.</p>
+				</div>
+				<!-- Testimonial Quote -->
+				<div class="testimonial">
+					<p>
+						"It's all about being a part of something in the community, socializing with people who share interests and coming together to help improve the world we live in."
+					</p>
+					<ul class="list-inline meta">
+						
+						<li class="list-inline-item">Zach Braff</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <!--====  End of Feature Grid  ====-->
 
 <!--==============================
@@ -161,9 +221,9 @@ include 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section-title">
-					<h2>An Interface For Lifestyle</h2>
-					<p><a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a> makes
-						it easy to stay on top of your Life Style. No late tasks. No gimmicks.</p>
+					<h2>Entry barrier & our blue ocean</h2>
+					<p><a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Gi1's</a> 
+						Entry barriers for our competition and Gi1 blue ocean</p>
 				</div>
 			</div>
 		</div>
@@ -183,9 +243,8 @@ include 'header.php'; ?>
 								<!-- Icon -->
 								<i class="ti-bookmark"></i>
 								<!-- Heading -->
-								<h3>Easy Prototyping</h3>
+								<h3>First in the market early benefits.</h3>
 								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -194,9 +253,8 @@ include 'header.php'; ?>
 								<!-- Icon -->
 								<i class="ti-pulse"></i>
 								<!-- Heading -->
-								<h3>Sensor Bridge</h3>
+								<h3>Everything for everyone in just 1 app.</h3>
 								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -205,9 +263,8 @@ include 'header.php'; ?>
 								<!-- Icon -->
 								<i class="ti-bar-chart"></i>
 								<!-- Heading -->
-								<h3>Strategist</h3>
+								<h3>Fully socialized apps all industries are in social mode.</h3>
 								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
 							</div>
 						</div>
 						<div class="col-md-6 col-xs-12">
@@ -216,9 +273,28 @@ include 'header.php'; ?>
 								<!-- Icon -->
 								<i class="ti-panel"></i>
 								<!-- Heading -->
-								<h3>Art Direction</h3>
+								<h3>Ease of use, simplicity & fast</h3>
 								<!-- Description -->
-								<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-panel"></i>
+								<!-- Heading -->
+								<h3>Gi1 whole multiverse of all categories</h3>
+								<!-- Description -->
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<!-- Service 01 -->
+							<div class="service-item">
+								<!-- Icon -->
+								<i class="ti-panel"></i>
+								<!-- Heading -->
+								<h3>new design with new user interface & experience</h3>
+								<!-- Description -->
 							</div>
 						</div>
 					</div>
@@ -257,15 +333,17 @@ include 'header.php'; ?>
 	<div class="container">
 		<div class="rounded shadow p-5 bg-white">
 			<div class="row">
-				<div class="col-lg-8 col-md-4 col-sm-2 mt-md-0 ">
+				<div class="col-lg-8 col-md-6 mt-md-0 ">
 					<h3 class="mt-4 text-capitalize h5 col-lg-8 col-sm-4">About Us</h3>
 					<p class="regular text-muted">Introducing 'Gi1,' the super app that brings
 						together the apex of today's most popular
 						industries into a unified digital marvel.</p>
+					<div class="btn btn-primary mt-md-4 m-2"><a href="about.php">See More</a></div>
 				</div>
-				<img src="images/about/story-slider-01.jpg" alt="" class="col-lg-4 col-md-2 radius-5x">
+				<div class="card col-lg-4 col-md-6"style="background: url(images/about/story-slider-01.jpg) center/cover no-repeat;">
+									<img src="images/about/story-slider-01.jpg"  alt="" class="card-img-top"/>
+				</div>
 			</div>
-			<div class="btn btn-download"><a href="about.php">See More</a></div>
 		</div>
 	</div>
 </section>
