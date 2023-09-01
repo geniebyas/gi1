@@ -175,7 +175,7 @@ include 'header.php'; ?>
 			<div class="col-lg-6 mr-auto justify-content-center">
 				<!-- Feature mockup -->
 				<div class="image-content" data-aos="fade-left">
-					<img class="img-fluid" src="images/assistant.png" style=" alt="ipad">
+					<img class="img-fluid" src="images/assistant.png" alt="ipad">
 				</div>
 			</div>
 		</div>
