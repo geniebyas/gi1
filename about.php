@@ -12,7 +12,7 @@ include 'header.php'; ?>
 			<div class="row">
 				<div class="col-sm-8 m-auto">
 					<!-- Page Title -->
-					<h1>About Small Apps</h1>
+					<h1>About <a href="index.php">Gi1</a></h1>
 					<!-- Page Description -->
 					<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo,
 						lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.

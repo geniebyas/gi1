@@ -92,49 +92,7 @@ include 'header.php'; ?>
   <!--===============================
 =            Fun Facts            =
 ================================-->
-  <section class="company-fun-facts section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2>Some amenities for you to enjoy</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="fun-fact">
-            <!-- Icon -->
-            <i class="ti-timer"></i>
-            <h3>Flexible hours</h3>
-            <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="fun-fact">
-            <!-- Icon -->
-            <i class="ti-filter"></i>
-            <h3>Free Snacks & Drinks</h3>
-            <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="fun-fact">
-            <!-- Icon -->
-            <i class="ti-game"></i>
-            <h3>Gaming</h3>
-            <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="fun-fact">
-            <!-- Icon -->
-            <i class="ti-hummer"></i>
-            <h3>4 Working Days</h3>
-            <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <!--====  End of Fun Facts  ====-->
 
   <!--===============================
@@ -154,12 +112,10 @@ include 'header.php'; ?>
                 <!-- Job Title -->
                 <h3>Andriod Developer</h3>
                 <!-- Location -->
-                <p>Hamburg, Germany</p>
               </div>
               <!-- Action Button -->
               <div class="apply-button">
-                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">View
-                  Details</a>
+                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">Apply Now</a>
                 <!-- Modal -->
                 <div class="modal fade jd-modal" id="android-developer" tabindex="-1">
                   <div class="modal-dialog modal-lg">
@@ -252,40 +208,34 @@ include 'header.php'; ?>
             <div class="job">
               <div class="content">
                 <!-- Job Title -->
-                <h3>DevOps Engineer</h3>
+                <h3>Django Developer</h3>
                 <!-- Location -->
-                <p>London, United Kingdom</p>
               </div>
               <!-- Action Button -->
               <div class="apply-button">
-                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">View
-                  Details</a>
+                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">Apply Now</a>
               </div>
             </div>
             <div class="job">
               <div class="content">
                 <!-- Job Title -->
-                <h3>Operations Associate / Manager </h3>
+                <h3>Project Manager</h3>
                 <!-- Location -->
-                <p>New Jersey , USA</p>
               </div>
               <!-- Action Button -->
               <div class="apply-button">
-                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">View
-                  Details</a>
+                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">Apply Now</a>
               </div>
             </div>
             <div class="job">
               <div class="content">
                 <!-- Job Title -->
-                <h3>International Compliance Officer</h3>
+                <h3>UI/UX Developer</h3>
                 <!-- Location -->
-                <p>New Jersey , USA</p>
               </div>
               <!-- Action Button -->
               <div class="apply-button">
-                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">View
-                  Details</a>
+                <a href="#" class="btn btn-main-sm" data-toggle="modal" data-target="#android-developer">Apply Now</a>
               </div>
             </div>
           </div>
