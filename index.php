@@ -188,7 +188,7 @@ include 'header.php'; ?>
 				<!-- Feature Mockup -->
 				<div class="image-content" data-aos="fade-right">
 					<img class="img-fluid" src="images/chat.png" alt="iphone">
-				</div>
+				</div> 
 			</div>
 			<div class="col-lg-6 mr-auto align-self-center">
 				<div class="feature-content">

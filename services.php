@@ -11,7 +11,7 @@ include 'header.php'; ?>
 		<div class="row">
 			<div class="col-sm-8 m-auto">
 				<!-- Page Title -->
-				<h1>Blog</h1>
+				<h1>Gi1 Services</h1>
 				<!-- Page Description -->
 				<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
 			</div>
