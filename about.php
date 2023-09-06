@@ -74,8 +74,7 @@ include 'header.php'; ?>
 				<div class="col-12">
 					<div class="section-title mb-0">
 						<h2>Why we created <a
-								href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small
-								Apps</a></h2>
+								href="http://www.gi1superapp.com">Gi1</a></h2>
 						<p>Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur
 							sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Praesent sapien
 							massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Proin eget
