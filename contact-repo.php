@@ -25,9 +25,7 @@ $sql = "INSERT INTO contact (name, email, subject, message) VALUES ('$name', '$e
 if ($conn->query($sql) === TRUE) {
     echo "Feedback submitted successfully!";
     header("Location:contact.php");
-    $_SESSION["feedback_published"] = true;
 } else {
-    $_SESSION["feedback_published"] = false;
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 

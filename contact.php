@@ -1,11 +1,6 @@
 <?php
 session_start();
 $_SESSION['current_session'] = "contact";  
-if($_SESSION['feedback_published'] == true){
-  echo "<div class='alert alert-success' role='alert'>
-  A simple success alert—check it out!
-</div>";
-}
 include 'header.php'; ?>
   <!--================================
 =            Page Title            =
