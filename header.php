@@ -61,6 +61,7 @@
 			$contact = "";
 			$active_indicator = $_SESSION['current_session'];
 
+			
 			if ($active_indicator == "home") {
 				$home = "active";
 			} else {

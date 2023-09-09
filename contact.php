@@ -1,6 +1,11 @@
 <?php
 session_start();
 $_SESSION['current_session'] = "contact";  
+if($_SESSION['feedback_published'] == true){
+  echo "<div class='alert alert-success' role='alert'>
+  A simple success alert—check it out!
+</div>";
+}
 include 'header.php'; ?>
   <!--================================
 =            Page Title            =
@@ -13,8 +18,8 @@ include 'header.php'; ?>
           <!-- Page Title -->
           <h1>Contact Us</h1>
           <!-- Page Description -->
-          <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget
-            consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
+          <p>Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover how we can make your digital dreams come true.
+          </p>
         </div>
       </div>
     </div>
@@ -29,32 +34,24 @@ include 'header.php'; ?>
   <section class="address">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 align-self-center">
+        <div class="col-lg align-self-center">
           <div class="block">
             <div class="address-block text-center mb-5">
               <div class="icon">
                 <i class="ti-mobile"></i>
               </div>
               <div class="details">
-                <h3>(00) 789 456 7890 (USA)</h3>
-                <h3>(88) 016 725 0455 (UK)</h3>
+                <h3> +917777975877</h3>
               </div>
             </div>
             <div class="address-block text-center">
               <div class="icon">
-                <i class="ti-map-alt"></i>
+                <i class="ti-email"></i>
               </div>
               <div class="details">
-                <h3>36. St Michael’s St, Oxford OX1, UK</h3>
-                <h3>123, Pennsylvania, USA</h3>
+                <h3>muhamadsaad777713@gmail.com</h3>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-7 mt-5 mt-lg-0">
-          <div class="google-map">
-            <!-- Google Map -->
-            <div id="map_canvas" data-latitude="51.507351" data-longitude="-0.127758"></div>
           </div>
         </div>
       </div>
@@ -69,19 +66,19 @@ include 'header.php'; ?>
           <h2 class="mb-5 text-center">Drop us a mail</h2>
         </div>
         <div class="col-12">
-          <form action="">
+          <form action="contact-repo.php" method="post">
             <div class="row">
               <!-- Name -->
               <div class="col-md-6 mb-2">
-                <input class="form-control main" type="text" placeholder="Name" required>
+                <input class="form-control main" name="name" type="text" placeholder="Name" required>
               </div>
               <!-- Email -->
               <div class="col-md-6 mb-2">
-                <input class="form-control main" type="email" placeholder="Your Email Address" required>
+                <input class="form-control main" name="email" type="email" placeholder="Your Email Address" required>
               </div>
               <!-- subject -->
               <div class="col-md-12 mb-2">
-                <input class="form-control main" type="text" placeholder="Subject" required>
+                <input class="form-control main" type="text" name="subject" placeholder="Subject" required>
               </div>
               <!-- Message -->
               <div class="col-md-12 mb-2">
