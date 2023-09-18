@@ -13,7 +13,7 @@ include 'header.php'; ?>
                         <!-- Heading -->
                         <h2 style="font-size: 24px;">Watch Our Promo Video</h2>
                         <!-- Popup Video -->
-                        <video height="360" width="640" controls style="max-width: 100%; height: auto;">
+                        <video height="540" width="960" controls style="max-width: 100%; height: auto;">
                             <source src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd" type="video/mp4">
                         </video>
                     </div>
