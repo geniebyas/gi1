@@ -339,7 +339,7 @@ include 'header.php'; ?>
 					<div class="btn btn-primary mt-md-4 m-2"><a href="about.php">See More</a></div>
 				</div>
 				<div class="card col-lg-4 col-md-6"style="background: url(images/about/story-slider-01.jpg) center/cover no-repeat;">
-									<img src="images/about/story-slider-01.jpg"  alt="" class="card-img-top"/>
+									<!-- <img src="images/about/story-slider-01.jpg"  alt="" class="card-img-top"/> -->
 				</div>
 			</div>
 		</div>
@@ -358,7 +358,7 @@ include 'header.php'; ?>
 					<div class="btn btn-primary mt-md-4 m-2"><a href="contact.php">See More</a></div>
 				</div>
 				<div class="card col-lg-4 col-md-6"style="background: url(images/contactus/img1.webp) center/cover no-repeat;">
-									<img src="images/contactus/img1.webp"  alt="" class="card-img-top"/>
+									<!-- <img src="images/contactus/img1.webp"  alt="" class="card-img-top"/> -->
 				</div>
 			</div>
 		</div>
