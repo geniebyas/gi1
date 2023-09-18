@@ -65,7 +65,7 @@ include 'header.php'; ?>
 </section>
 
 
-<section class="section">
+<!-- <section class="section">
 	<div class="container">
 		<div class="rounded shadow p-5 bg-white">
 			<div class="row">
@@ -78,8 +78,31 @@ include 'header.php'; ?>
 			<div class="btn btn-download"><a href="about.php"></a></div>
 		</div>
 	</div>
+</section> -->
+<!--=================================
+=            Video Promo            =
+==================================-->
+<section class="video-promo section bg-1">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="content-block">
+					<!-- Heading -->
+					<h2>Watch Our Promo Video</h2>
+					<!-- Promotional Speech -->
+					<p></p>
+					<!-- Popup Video -->
+					<!-- <a data-fancybox href="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd">
+						<i class="ti-control-play video"></i>
+					</a> -->
+					<video height="360" width="640" controls>
+						<source src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd" type="video/mp4">
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
-
 <!--==================================
 =            Feature Grid            =
 ===================================-->
@@ -306,27 +329,7 @@ include 'header.php'; ?>
 <!--====  End of Services  ====-->
 
 
-<!--=================================
-=            Video Promo            =
-==================================-->
-<section class="video-promo section bg-1">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="content-block">
-					<!-- Heading -->
-					<h2>Watch Our Promo Video</h2>
-					<!-- Promotional Speech -->
-					<p></p>
-					<!-- Popup Video -->
-					<a data-fancybox href="https://www.youtube.com/watch?v=jrkvirglgaQ">
-						<i class="ti-control-play video"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+
 
 
 <section class="section">
