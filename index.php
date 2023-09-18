@@ -102,7 +102,7 @@ include 'header.php'; ?>
 =            Feature Grid            =
 ===================================-->
 
-<section class="feature section pt-0">
+<section class="feature section pt-6">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 ml-auto align-self-center">
@@ -340,6 +340,25 @@ include 'header.php'; ?>
 				</div>
 				<div class="card col-lg-4 col-md-6"style="background: url(images/about/story-slider-01.jpg) center/cover no-repeat;">
 									<img src="images/about/story-slider-01.jpg"  alt="" class="card-img-top"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="section">
+	<div class="container">
+		<div class="rounded shadow p-5 bg-white">
+			<div class="row">
+				<div class="col-lg-8 col-md-6 mt-md-0 ">
+					<h3 class="mt-4 text-capitalize h5 col-lg-8 col-sm-4">Contact Us</h3>
+					<p class="regular text-muted">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover how we can make your digital dreams come true.</p>
+					<div class="btn btn-primary mt-md-4 m-2"><a href="contact.php">See More</a></div>
+				</div>
+				<div class="card col-lg-4 col-md-6"style="background: url(images/contactus/img1.webp) center/cover no-repeat;">
+									<img src="images/contactus/img1.webp"  alt="" class="card-img-top"/>
 				</div>
 			</div>
 		</div>
