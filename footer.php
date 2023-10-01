@@ -46,7 +46,7 @@
 	<script src="plugins/google-map/gmap.js"></script>
 
 	<script src="js/script.js"></script>
-	   <script src="https://cdn.tailwindcss.com"></script>
+	   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
 </body>
 

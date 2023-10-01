@@ -5,8 +5,8 @@ include 'header.php'; ?>
 <!--=================================
 =            Video Promo            =
 ==================================-->
-<section class="container-fluid " style="padding:20px;margin: 20px;">
-            <iframe class="w-full aspect-video " src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd"></iframe>
+<section class="video-promo section bg-1 " >
+            <iframe class="w-full aspect-video" src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd"></iframe>
 
                     <!-- <div data-v-15ab2aa8="" data-v-e4caeaf8="" class="hero-image flex justify-end w-full rounded-lg lg:rounded-3xl"><div data-v-15ab2aa8="" data-v-e4caeaf8="" class="video-container w-full"><video data-v-15ab2aa8="" data-v-e4caeaf8="" src="https://upload-cdn.careem.com/2023_05_05_Careem_New_Brand_Video_Cutdown_04_1920_X1080_Online_Mix_851c26c68a.mp4" autoplay="autoplay" playsinline="" loop="loop" muted="muted" class="w-full h-full object-cover z-0 rounded-lg lg:rounded-3xl"></video> <div data-v-15ab2aa8="" data-v-e4caeaf8="" class="tint w-full h-full z-10 absolute top-0"></div></div></div>
                         <h2 style="font-size: 24px;">Watch Our Promo Video</h2>
@@ -46,9 +46,9 @@ include 'header.php'; ?>
 <div class="row text-center ">
 					<!-- <div class="col-md-6 text-center order-1 order-md-2">
 					</div>	 -->
-										<img class="img-fluid col-lg-6 col-md-12" style="" src="images/lamp.png" alt="screenshot">
+										<!-- <img class="img-fluid col-lg-6 col-md-12" style="" src="images/lamp.png" alt="screenshot"> -->
 
-					<img class="img-fluid col-lg-6 col-md-12" style="" src="images/phone1.png" alt="screenshot">
+					<img class="img-fluid " style="" src="images/phone1.png" alt="screenshot">
 
 				<!-- <div class="col-md-6 text-center order-1 order-md-2">
 				</div> -->
