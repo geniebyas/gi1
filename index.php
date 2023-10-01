@@ -46,18 +46,19 @@ include 'header.php'; ?>
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col order-2 order-md-1 text-center text-md-left">
-				<h1 class="text-white font-weight-bold mb-4">All In One In Gi1</h1>
-				<div class="row text-center md-4">
-					<div class="col-md-6 text-center order-1 order-md-2">
-				<img class="img-fluid" src="images/phone1.png" alt="screenshot">
-			</div>
-			
-			<div class="col-md-6 text-center order-1 order-md-2">
-				<img class="img-fluid" src="images/phone1.png" alt="screenshot">
-			</div>
+											<h1 class="text-white font-weight-bold text-center m-5">All In One In Gi1</h1>
+<div class="row text-center ">
+					<!-- <div class="col-md-6 text-center order-1 order-md-2">
+					</div>	 -->
+										<img class="img-fluid col-lg-6 col-md-12" style="" src="images/phone1.png" alt="screenshot">
+
+					<img class="img-fluid col-lg-6 col-md-12" style="" src="images/phone1.png" alt="screenshot">
+
+				<!-- <div class="col-md-6 text-center order-1 order-md-2">
+				</div> -->
 				</div>
 				
-				<p class="text-white mb-5">'Gi1' is the world 1<sup>st</sup> super app with all the top & trending platforms of the time in just 1 app. it's complete mall of apps with a complete A-Z bunch of all wanted industries, categories & sevices in only 1 super app.</p>
+				<p class="text-white mb-5 text-center">'Gi1' is the world 1<sup>st</sup> super app with all the top & trending platforms of the time in just 1 app. it's complete mall of apps with a complete A-Z bunch of all wanted industries, categories & sevices in only 1 super app.</p>
 			</div>
 			
 		</div>
@@ -140,6 +141,27 @@ include 'header.php'; ?>
 		</div>
 	</div>
 </section>
+<!-- Slider for pitch deck slides -->
+
+<div id="carouselExampleIndicators" class="carousel slide" style="padding: 50px;" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="images/slider/multiverse_img.PNG" class="d-block w-100" alt="multiverse">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider/multiverse_img.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider/multiverse_img.PNG" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
 <section class="feature section pt-0">
 	<div class="container">
 		<div class="row">
