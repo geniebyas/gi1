@@ -5,21 +5,17 @@ include 'header.php'; ?>
 <!--=================================
 =            Video Promo            =
 ==================================-->
-<section class="video-promo section bg-1" style="display: flex; justify-content: center; align-items: center; background-color: #f1f1f1;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="content-block" style="text-align: center;">
-                        <!-- Heading -->
+<section class="container-fluid " style="padding:20px;margin: 20px;">
+            <iframe class="w-full aspect-video " src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd"></iframe>
+
+                    <!-- <div data-v-15ab2aa8="" data-v-e4caeaf8="" class="hero-image flex justify-end w-full rounded-lg lg:rounded-3xl"><div data-v-15ab2aa8="" data-v-e4caeaf8="" class="video-container w-full"><video data-v-15ab2aa8="" data-v-e4caeaf8="" src="https://upload-cdn.careem.com/2023_05_05_Careem_New_Brand_Video_Cutdown_04_1920_X1080_Online_Mix_851c26c68a.mp4" autoplay="autoplay" playsinline="" loop="loop" muted="muted" class="w-full h-full object-cover z-0 rounded-lg lg:rounded-3xl"></video> <div data-v-15ab2aa8="" data-v-e4caeaf8="" class="tint w-full h-full z-10 absolute top-0"></div></div></div>
                         <h2 style="font-size: 24px;">Watch Our Promo Video</h2>
-                        <!-- Popup Video -->
-                        <video height="540" width="960" controls style="max-width: 100%; height: auto;">
-                            <source src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd" type="video/mp4">
+						<div class="video-container w-full" >
+                        <video autoplay="autoplay" playsinline="" loop="loop" muted="muted" class="w-full h-full object-cover z-0 rounded-lg lg:rounded-3xl" src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd" type="video/mp4">
+                
                         </video>
-                    </div>
-                </div>
-            </div>
-        </div>
+						</div> -->
+           
     </section>
 <!--====================================
 =            Hero Section            =
@@ -50,7 +46,7 @@ include 'header.php'; ?>
 <div class="row text-center ">
 					<!-- <div class="col-md-6 text-center order-1 order-md-2">
 					</div>	 -->
-										<img class="img-fluid col-lg-6 col-md-12" style="" src="images/phone1.png" alt="screenshot">
+										<img class="img-fluid col-lg-6 col-md-12" style="" src="images/lamp.png" alt="screenshot">
 
 					<img class="img-fluid col-lg-6 col-md-12" style="" src="images/phone1.png" alt="screenshot">
 
@@ -143,7 +139,7 @@ include 'header.php'; ?>
 </section>
 <!-- Slider for pitch deck slides -->
 
-<div id="carouselExampleIndicators" class="carousel slide" style="padding: 50px;" data-bs-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" style="padding: 20px;" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -160,6 +156,7 @@ include 'header.php'; ?>
       <img src="images/slider/multiverse_img.PNG" class="d-block w-100" alt="...">
     </div>
   </div>
+
 </div>
 
 <section class="feature section pt-0">
