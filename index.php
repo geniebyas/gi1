@@ -45,9 +45,9 @@ include 'header.php'; ?>
 	</div>
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+			<div class="col order-2 order-md-1 text-center text-md-left">
 				<h1 class="text-white font-weight-bold mb-4">All In One In Gi1</h1>
-				<div class="row">
+				<div class="row text-center md-4">
 					<div class="col-md-6 text-center order-1 order-md-2">
 				<img class="img-fluid" src="images/phone1.png" alt="screenshot">
 			</div>
