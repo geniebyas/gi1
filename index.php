@@ -167,7 +167,7 @@ include 'header.php'; ?>
         <div class="blog-item">
             <img class="blog-image" src="images\video_platform.jpeg" alt="Blog Image 2">
             <div class="blog-content">
-                <h2 class="blog-title">GENIE MEDIA</h2>
+                <h2 class="blog-title">Gi1 MEDIA</h2>
                 <p class="blog-text">GENIE MEDIA. The best ever, new and unique platform for every creater and user.
                     Get all the professional creating stuff and user demanded videos and be a star.</p>
             </div>
