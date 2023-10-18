@@ -37,6 +37,7 @@
 	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
 	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="plugins/aos/aos.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
 	<!-- CUSTOM CSS -->
 	<link href="css/style.css" rel="stylesheet">

@@ -2,21 +2,61 @@
 session_start();
 $_SESSION['current_session'] = "home";
 include 'header.php'; ?>
-<!--=================================
-=            Video Promo            =
-==================================-->
-<section class="video-promo section bg-1 " >
-            <iframe class="w-full aspect-video" src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd"></iframe>
+<!--====================================
+=            Promo Video            =
+=====================================-->
+<section class="section gradient-banner">
 
-                    <!-- <div data-v-15ab2aa8="" data-v-e4caeaf8="" class="hero-image flex justify-end w-full rounded-lg lg:rounded-3xl"><div data-v-15ab2aa8="" data-v-e4caeaf8="" class="video-container w-full"><video data-v-15ab2aa8="" data-v-e4caeaf8="" src="https://upload-cdn.careem.com/2023_05_05_Careem_New_Brand_Video_Cutdown_04_1920_X1080_Online_Mix_851c26c68a.mp4" autoplay="autoplay" playsinline="" loop="loop" muted="muted" class="w-full h-full object-cover z-0 rounded-lg lg:rounded-3xl"></video> <div data-v-15ab2aa8="" data-v-e4caeaf8="" class="tint w-full h-full z-10 absolute top-0"></div></div></div>
-                        <h2 style="font-size: 24px;">Watch Our Promo Video</h2>
-						<div class="video-container w-full" >
-                        <video autoplay="autoplay" playsinline="" loop="loop" muted="muted" class="w-full h-full object-cover z-0 rounded-lg lg:rounded-3xl" src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd" type="video/mp4">
-                
-                        </video>
-						</div> -->
-           
-    </section>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #3498db;
+        }
+
+        .video-container {
+            max-width: 80%;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+
+    <div class="video-section">
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+    
+
+<!--====================================
+=           End Promo video            =
+=====================================-->
+
+
 <!--====================================
 =            Hero Section            =
 =====================================-->
@@ -41,364 +81,438 @@ include 'header.php'; ?>
 	</div>
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col order-2 order-md-1 text-center text-md-left">
-											<h1 class="text-white font-weight-bold text-center m-5">All In One In Gi1</h1>
-<div class="row text-center ">
-					<!-- <div class="col-md-6 text-center order-1 order-md-2">
-					</div>	 -->
-										<!-- <img class="img-fluid col-lg-6 col-md-12" style="" src="images/lamp.png" alt="screenshot"> -->
-
-					<img class="img-fluid " style="" src="images/phone1.png" alt="screenshot">
-
-				<!-- <div class="col-md-6 text-center order-1 order-md-2">
-				</div> -->
-				</div>
-				
-				<p class="text-white mb-5 text-center">'Gi1' is the world 1<sup>st</sup> super app with all the top & trending platforms of the time in just 1 app. it's complete mall of apps with a complete A-Z bunch of all wanted industries, categories & sevices in only 1 super app.</p>
+			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+				<h1 class="text-white font-weight-bold mb-4">All In One In Gi1</h1>
+				<p class="text-white mb-5">'Gi1' is the world 1<sup>st</sup> super app with all the top & trending platforms
+				 of the time in just 1 app. 
+				 it's complete mall of apps with a complete A-Z bunch of all wanted industries, 
+				 categories & sevices in only 1 super app.</p>
 			</div>
-			
-		</div>
-	</div>
-</section>
-<!--====  End of Hero Section  ====-->
-
-<section class="section pt-0 position-relative pull-top">
-	<div class="container">
-		<div class="rounded shadow p-5 bg-white">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-					<i class="ti-paint-bucket text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">Vision</h3>
-					<p class="regular text-muted">We the Gi1, will be the no. 1 or the ony 1 but we will be the 1.</p>
-				</div>
-				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-					<i class="ti-shine text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">Mission</h3>
-					<p class="regular text-muted">Everything for everyone in only one super app.</p>
-				</div>
-				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
-					<i class="ti-thought text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">Aim</h3>
-					<p class="regular text-muted">To create 1 stop solution for everything, a streamlined all-in-one app hub, offering one all-inclusive mall of apps for ultimate convenience of all.</p>
-				</div>
+			<div class="col-md-6 text-center order-1 order-md-2">
+				<img class="img-fluid" height="550" width="300" src="images/phone1.png" alt="screenshot">
 			</div>
 		</div>
 	</div>
 </section>
+<!--====================================
+=            End Hero Section            =
+=====================================-->
+<!-- </section> -->
+<!--====================================
+=           Services Section            =
+=====================================-->
 
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
-<!-- <section class="section">
-	<div class="container">
-		<div class="rounded shadow p-5 bg-white">
-			<div class="row">
-				<div class="col-lg-8 col-md-4 col-sm-2 mt-md-0 ">
-					<h3 class="mt-4 text-capitalize h5 col-lg-8 col-sm-4">Benefits of All in one App</h3>
-					<p class="regular text-muted"></p>
-				</div>
-				<img src="" alt="" class="col-lg-4 col-md-2 radius-5x">
-			</div>
-			<div class="btn btn-download"><a href="about.php"></a></div>
-		</div>
-	</div>
-</section> -->
+        .blog-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
 
-<!--==================================
-=            Feature Grid            =
-===================================-->
+        .blog-item {
+            width: calc(25% - 20px);
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
 
-<section class="feature section pt-6">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 ml-auto align-self-center">
-				<div class="feature-content">
-					<!-- Feature Title -->
-					<h2>Welcome to Gi1-Super App</h2>
-					<!-- Feature Description -->
-					<p>Introducing Gi1, the revolutionary
-						super app that integrates the
-						highest platforms and diverse
-						industries, providing a
-						comprehensive and professional
-						solution for all your needs.Gi1 simplifies your all activities,
-						offering seamless handling,
-						enhanced user experience, and
-						an efficient system, ensuring
-						productivity at every step. So,
-						optimize your all workflow with
-						only 1 super app.</p>
-				</div>
-			</div>
-			<div class="col-lg-6 mr-auto justify-content-center">
-				<!-- Feature mockup -->
-				<div class="image-content" data-aos="fade-left">
-					<img class="img-fluid" src="images/wel.png" alt="ipad">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Slider for pitch deck slides -->
+        .blog-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
 
-<div id="carouselExampleIndicators" class="carousel slide" style="padding: 20px;" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active ">
-      <img src="images/slider/multiverse_img.PNG" class="d-block w-100" alt="multiverse">
+        .blog-content {
+            padding: 20px;
+        }
+
+        .blog-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .blog-text {
+            font-size: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .blog-item {
+                width: calc(50% - 20px);
+            }
+        }
+    </style>
+	  <div style="font-family: 'Poppins', Arial, sans-serif; text-align: center;">
+        <h1 style="font-size: 40px; margin: 30px 0; font-weight: bold;">Our Services</h1>
     </div>
-    <div class="carousel-item">
-      <img src="images/slider/multiverse_img.PNG" class="d-block w-100" alt="...">
+	<section class="blog-section">
+        <div class="blog-item">
+            <img class="blog-image" src="images\social_media.png" alt="Blog Image 1">
+            <div class="blog-content">
+                <h2 class="blog-title">GENIE SOCIAL</h2>
+                <p class="blog-text">GENIE SOCIAL, the new social world where you can get everything you had, you wanted, you need, you think
+                    and also you didn't even imagine, all in just 1.</p>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <img class="blog-image" src="images\video_platform.jpeg" alt="Blog Image 2">
+            <div class="blog-content">
+                <h2 class="blog-title">GENIE MEDIA</h2>
+                <p class="blog-text">GENIE MEDIA. The best ever, new and unique platform for every creater and user.
+                    Get all the professional creating stuff and user demanded videos and be a star.</p>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <img class="blog-image" src="images\ecommerce.jpeg" alt="Blog Image 3">
+            <div class="blog-content">
+                <h2 class="blog-title">GENIE MALL</h2>
+                <p class="blog-text">GENIE MALL. Get problem solving processes, innovated features and futuristic 3D AR technology. Unique and 1st socialized ecommerce shopping system.</p>
+            </div>
+        </div>
+
+        <div class="blog-item">
+            <img class="blog-image" src="images\education.jpg" alt="Blog Image 4">
+            <div class="blog-content">
+                <h2 class="blog-title">GENIE EDUCATION</h2>
+                <p class="blog-text">GENIE EDUCATION.Personalization, immersive tech, microlearning, global access, and lifelong learning, making education flexible, diverse, and inclusive.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #mainDiv {
+            position: relative;
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        #viewMore {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #333;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        #popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+        #popup-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #e74c3c;
+            padding: 20px;
+        }
+    </style>
+
+
+    <div id="mainDiv">
+        <div id="viewMore" onclick="showPopup()">View More</div>
     </div>
-    <div class="carousel-item">
-      <img src="images/slider/multiverse_img.PNG" class="d-block w-100" alt="...">
+    <div id="popup">
+        <div id="popup-content">
+            <h2>Coming Soon</h2>
+            <button onclick="hidePopup()">Close</button>
+        </div>
     </div>
-  </div>
 
-</div>
+    <script>
+        function showPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
 
-<section class="feature section pt-0">
+        function hidePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+
+
+<!--====================================
+=            End Services Section            =
+=====================================-->
+
+<!--====================================
+=            Prototype video Section            =
+=====================================-->
+
+
+		
+
+<style>
+        /* Container for the whole section */
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Left side container */
+        .left {
+            flex: 1;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        /* Image */
+        .image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Image description */
+        .description {
+            margin-top: 10px;
+            font-size: 16px;
+            color: black;
+        }
+
+        /* Right side container */
+        .right {
+            flex: 1;
+            background-color: #333;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            position: relative;
+        }
+
+        /* Play button */
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 36px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Video */
+        .video {
+            width: 100%;
+            height: 100%;
+        }
+        .centered-div {
+  width: 50%; /* You can adjust the width as needed */
+  margin: 0 auto;
+}
+    </style>
+    <div style="font-family: 'Poppins', Arial, sans-serif; text-align: center;">
+        <h1 style="font-size: 40px; margin: 30px 0; font-weight: bold;">Prototype Video</h1>
+    </div>
+
+    <div class="section">
+        <div  class="left">
+            <img class="image" class="centered-div" src="images\genie_full.png" alt="Your Image">
+            <p class="description">‘Presenting you the very first demo/prototype of
+                 ‘Gi1’ top platform’s 1st industry ‘Genie Media’ (Social)
+                  & the 2nd giant ‘Genie mall’ (E-commerce) of top platform’s is
+                   coming very soon & more on.</p>
+        </div>
+        <div class="right">
+            <div class="play-button">&#9654;</div>
+            
+<section class="video-promo section bg-1">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 ml-auto justify-content-center">
-				<!-- Feature Mockup -->
-				<div class="image-content" data-aos="fade-right">
-					<img class="img-fluid" src="images/feature/coinwish.png" alt="iphone">
-				</div>
-			</div>
-			<div class="col-lg-6 mr-auto align-self-center">
-				<div class="feature-content">
-					<!-- Feature Title -->
-					<h2>Genie Coins and Wishes</h2>
-					<!-- Feature Description -->
-					<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat.</p>
-				</div>
-				<!-- Testimonial Quote -->
-				<div class="testimonial">
-					<p>
-						"If crypto succeeds, it's not because it empowers better people. It's because it empowers better institutions"
-					</p>
-					<ul class="list-inline meta">
-						<li class="list-inline-item">
-							<img src="images/testimonial/vitalik_butarin.webp" alt="">
-						</li>
-						<li class="list-inline-item">Vitalik Buterin, Founder, Ethereum</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="feature section pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 ml-auto align-self-center">
-				<div class="feature-content">
-					<!-- Feature Title -->
-					<h2>Genie Theme and AI app Assistant</h2>
-					<!-- Feature Description -->
-					<p>The enchanting world of 'Gi1', is inspired by the theme of Genie and Aladdin. A place of wonder where wishes come true with the power of your own AI assistant, a moden day 'GENIE' Experience a golden era of fulfillment and wonder as 'Gi1' grants your all desires effortlessly.</p>
-				</div>
-				<!-- Testimonial Quote -->
-				<div class="testimonial">
-					<p>"In the long term, artificial intelligence and automation are going to be taking over so much of what gives humans a feeling of purpose."
-					</p>
-					<ul class="list-inline meta">
-						<!-- <li class="list-inline-item">
-							<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="">
-						</li> -->
-						<li class="list-inline-item">-Matt Bellamy</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-6 mr-auto justify-content-center">
-				<!-- Feature mockup -->
-				<div class="image-content" data-aos="fade-left">
-					<img class="img-fluid" src="images/assistant.png" alt="ipad">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="feature section pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 ml-auto justify-content-center">
-				<!-- Feature Mockup -->
-				<div class="image-content" data-aos="fade-right">
-					<img class="img-fluid" src="images/chat.png" alt="iphone">
-				</div> 
-			</div>
-			<div class="col-lg-6 mr-auto align-self-center">
-				<div class="feature-content">
-					<!-- Feature Title -->
-					<h2>Advanced Socializing Chat Section</h2>
-					<!-- Feature Description -->
-					<p class="desc">Gi1 has powerful chat section with the help of AI our chat section should be more advanced and user freindly.</p>
-				</div>
-				<!-- Testimonial Quote -->
-				<div class="testimonial">
-					<p>
-						"It's all about being a part of something in the community, socializing with people who share interests and coming together to help improve the world we live in."
-					</p>
-					<ul class="list-inline meta">
-						
-						<li class="list-inline-item">Zach Braff</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Feature Grid  ====-->
-
-<!--==============================
-=            Services            =
-===============================-->
-<section class="service section bg-gray">
-	<div class="container-fluid p-0">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="section-title">
-					<h2>Entry barrier & our blue ocean</h2>
-					<p><a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Gi1's</a> 
-						Entry barriers for our competition and Gi1 blue ocean</p>
+				<div class="content-block">
+					<!-- Heading -->
+					<h2>Watch Our Prototype Video</h2>
+					<!-- Promotional Speech -->
+					<!-- Popup Video -->
+					<a data-fancybox href="https://youtu.be/h1PfcBpB208?si=siWhi23TwLZaav11">
+						<i class="ti-control-play video"></i>
+					</a>
+                   
 				</div>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-lg-6 align-self-center">
-				<!-- Feature Image -->
-				<div class="service-thumb left" data-aos="fade-right">
-					<img class="img-fluid p-4" src="images/livedone.png" alt="iphone-ipad">
-				</div>
-			</div>
-			<div class="col-lg-5 mr-auto align-self-center">
-				<div class="service-box">
-					<div class="row align-items-center">
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-bookmark"></i>
-								<!-- Heading -->
-								<h3>First in the market early benefits.</h3>
-								<!-- Description -->
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-pulse"></i>
-								<!-- Heading -->
-								<h3>Everything for everyone in just 1 app.</h3>
-								<!-- Description -->
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-bar-chart"></i>
-								<!-- Heading -->
-								<h3>Fully socialized apps all industries are in social mode.</h3>
-								<!-- Description -->
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-panel"></i>
-								<!-- Heading -->
-								<h3>Ease of use, simplicity & fast</h3>
-								<!-- Description -->
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-panel"></i>
-								<!-- Heading -->
-								<h3>Gi1 whole multiverse of all categories</h3>
-								<!-- Description -->
-							</div>
-						</div>
-						<div class="col-md-6 col-xs-12">
-							<!-- Service 01 -->
-							<div class="service-item">
-								<!-- Icon -->
-								<i class="ti-panel"></i>
-								<!-- Heading -->
-								<h3>new design with new user interface & experience</h3>
-								<!-- Description -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Services  ====-->
-
-
-
-
-
-<section class="section">
-	<div class="container">
-		<div class="rounded shadow p-5 bg-white">
-			<div class="row">
-				<div class="col-lg-8 col-md-6 mt-md-0 ">
-					<h3 class="mt-4 text-capitalize h5 col-lg-8 col-sm-4">About Us</h3>
-					<p class="regular text-muted">Introducing 'Gi1,' the super app that brings
-						together the apex of today's most popular
-						industries into a unified digital marvel.</p>
-					<div class="btn btn-primary mt-md-4 m-2"><a href="about.php">See More</a></div>
-				</div>
-				<div class="card col-lg-4 col-md-6"style="background: url(images/about/story-slider-01.jpg) center/cover no-repeat;">
-									<!-- <img src="images/about/story-slider-01.jpg"  alt="" class="card-img-top"/> -->
-				</div>
-			</div>
+			</div> 
 		</div>
 	</div>
 </section>
 
+        </div>
+    </div>
+    
 
-
-<section class="section">
-	<div class="container">
-		<div class="rounded shadow p-5 bg-white">
-			<div class="row">
-				<div class="col-lg-8 col-md-6 mt-md-0 ">
-					<h3 class="mt-4 text-capitalize h5 col-lg-8 col-sm-4">Contact Us</h3>
-					<p class="regular text-muted">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover how we can make your digital dreams come true.</p>
-					<div class="btn btn-primary mt-md-4 m-2"><a href="contact.php">See More</a></div>
-				</div>
-				<div class="card col-lg-4 col-md-6"style="background: url(images/contactus/img1.webp) center/cover no-repeat;">
-									<!-- <img src="images/contactus/img1.webp"  alt="" class="card-img-top"/> -->
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of Video Promo  ====-->
-
+<!--====================================
+=            End prototype video Section            =
+=====================================-->
 <!--=================================
 =            Testimonial            =
 ==================================-->
-<!-- testimonial removed from here -->
-<!--====  End of Testimonial  ====-->
+ 
+ 
 
-<!-- Download section removed from here  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .testimonial-section {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .testimonial-container {
+            display: flex;
+            width: 100%;
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .testimonial {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .testimonial img {
+            width: 80%;
+            height: 500px;
+            border-radius: 20px; /* Curved corners for the image */
+        }
+
+        .testimonial-slider {
+            width: 500%; /* Total width is 5 times the testimonial width */
+            white-space: nowrap;
+            animation: slide 20s infinite;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            20% { transform: translateX(0); }
+            25% { transform: translateX(-100%); }
+            45% { transform: translateX(-100%); }
+            50% { transform: translateX(-200%); }
+            70% { transform: translateX(-200%); }
+            75% { transform: translateX(-300%); }
+            95% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="testimonial-section">
+        <div class="testimonial-container">
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <img src="images\slider\slide_1.png" alt="Testimonial 1">
+                </div>
+                <div class="testimonial">
+                    <img src="images\slider\slide_4.png" alt="Testimonial 3">
+                </div>
+                <div class="testimonial">
+                    <img src="images\slider\multiverse_img.PNG" alt="Testimonial 2">
+                </div>
+                
+                <div class="testimonial">
+                    <img src="images\slider\slide_3.png" alt="Testimonial 4">
+                </div>
+                <div class="testimonial">
+                    <img src="images\slider\slide_2.png" alt="Testimonial 5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!--=================================
+=            End Testimonial            =
+==================================-->
+
+<!--=================================
+=            About us            =
+==================================-->
+
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .about-us-section {
+            text-align: center;
+            padding: 80px 0;
+            background-color: #fff;
+        }
+
+        .about-us-image {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+        }
+
+        .about-us-title {
+            font-size: 24px;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+
+    <section class="about-us-section">
+        <div class="container">
+        <div style="font-family: 'Poppins', Arial, sans-serif; text-align: center;">
+        <h1 style="font-size: 40px; margin: 30px 0; font-weight: bold;">About Us</h1>
+    </div>
+            <img class="about-us-image" src="images\about\story-slider-01.jpg" alt="About Us">
+            <p class="description">‘Gi1’ is the world 1st super app with al the top & trending platforms ’s a complete mall of apps as we have everything for everyone in 1. We have our own platforms from A-Z every needed apps in 1 place.</p>
+        </div>
+    </section>
+
+
+<!--=================================
+=            About us            =
+==================================-->
+
+
 
 <!--============================
 =            Footer            =

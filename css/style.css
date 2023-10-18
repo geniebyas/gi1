@@ -7,10 +7,68 @@
 
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:300,400,600,700,800");
-body {
+body
+{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.parent {
+  width: 80%; /* Set the parent's width to 80% of the viewport width */
+  margin: 0 auto; /* Center the parent horizontally */
+  background-color: lightgray; /* Just for visualization */
+}
+
+.content {
+  width: 100%; /* Make the content match the parent's width */
+  padding: 20px; /* Add padding or styling as needed */
+  background-color: white; /* Just for visualization */
+}
+{
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+.my-div {
+  padding-top: 20px; /* Adjust the value to set the desired spacing */
+  border: 1px solid rgba(22, 22, 141, 0); /* Just to visualize the div */
+}
+  /* Container styling with curved edges */
+        .video-container {
+            overflow: hidden;
+            border-radius: 15px; /* Adjust the border radius as desired */
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Video styling */
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    #video-section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #autoplay-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
