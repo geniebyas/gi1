@@ -158,7 +158,7 @@ include 'header.php'; ?>
         <div class="blog-item">
             <img class="blog-image" src="images\social_media.png" alt="Blog Image 1">
             <div class="blog-content">
-                <h2 class="blog-title">GENIE SOCIAL</h2>
+                <h2 class="blog-title">Gi1 SOCIAL</h2>
                 <p class="blog-text">GENIE SOCIAL, the new social world where you can get everything you had, you wanted, you need, you think
                     and also you didn't even imagine, all in just 1.</p>
             </div>
@@ -176,7 +176,7 @@ include 'header.php'; ?>
         <div class="blog-item">
             <img class="blog-image" src="images\ecommerce.jpeg" alt="Blog Image 3">
             <div class="blog-content">
-                <h2 class="blog-title">GENIE MALL</h2>
+                <h2 class="blog-title">Gi1 MALL</h2>
                 <p class="blog-text">GENIE MALL. Get problem solving processes, innovated features and futuristic 3D AR technology. Unique and 1st socialized ecommerce shopping system.</p>
             </div>
         </div>
@@ -184,7 +184,7 @@ include 'header.php'; ?>
         <div class="blog-item">
             <img class="blog-image" src="images\education.jpg" alt="Blog Image 4">
             <div class="blog-content">
-                <h2 class="blog-title">GENIE EDUCATION</h2>
+                <h2 class="blog-title">Gi1 EDUCATION</h2>
                 <p class="blog-text">GENIE EDUCATION.Personalization, immersive tech, microlearning, global access, and lifelong learning, making education flexible, diverse, and inclusive.</p>
             </div>
         </div>
