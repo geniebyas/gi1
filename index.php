@@ -137,12 +137,16 @@ include 'header.php'; ?>
         }
 
         .blog-title {
-            font-size: 1.5rem;
+            color: black;
+            font: status-bar;
+            font-size: 2rem;
             margin-bottom: 10px;
         }
 
         .blog-text {
-            font-size: 1rem;
+            font-size: 1.2rem;
+            color: black;
+            
         }
 
         @media (max-width: 768px) {
@@ -159,7 +163,7 @@ include 'header.php'; ?>
             <img class="blog-image" src="images\social_media.png" alt="Blog Image 1">
             <div class="blog-content">
                 <h2 class="blog-title">Gi1 SOCIAL</h2>
-                <p class="blog-text">GENIE SOCIAL, the new social world where you can get everything you had, you wanted, you need, you think
+                <p class="blog-text">Gi1 SOCIAL, the new social world where you can get everything you had, you wanted, you need, you think
                     and also you didn't even imagine, all in just 1.</p>
             </div>
         </div>
@@ -168,7 +172,7 @@ include 'header.php'; ?>
             <img class="blog-image" src="images\video_platform.jpeg" alt="Blog Image 2">
             <div class="blog-content">
                 <h2 class="blog-title">Gi1 MEDIA</h2>
-                <p class="blog-text">GENIE MEDIA. The best ever, new and unique platform for every creater and user.
+                <p class="blog-text">Gi1 MEDIA. The best ever, new and unique platform for every creater and user.
                     Get all the professional creating stuff and user demanded videos and be a star.</p>
             </div>
         </div>
@@ -177,7 +181,7 @@ include 'header.php'; ?>
             <img class="blog-image" src="images\ecommerce.jpeg" alt="Blog Image 3">
             <div class="blog-content">
                 <h2 class="blog-title">Gi1 MALL</h2>
-                <p class="blog-text">GENIE MALL. Get problem solving processes, innovated features and futuristic 3D AR technology. Unique and 1st socialized ecommerce shopping system.</p>
+                <p class="blog-text">Gi1 MALL. Get problem solving processes, innovated features and futuristic 3D AR technology. Unique and 1st socialized ecommerce shopping system.</p>
             </div>
         </div>
 
@@ -185,7 +189,7 @@ include 'header.php'; ?>
             <img class="blog-image" src="images\education.jpg" alt="Blog Image 4">
             <div class="blog-content">
                 <h2 class="blog-title">Gi1 EDUCATION</h2>
-                <p class="blog-text">GENIE EDUCATION.Personalization, immersive tech, microlearning, global access, and lifelong learning, making education flexible, diverse, and inclusive.</p>
+                <p class="blog-text">Gi1 EDUCATION.Personalization, immersive tech, microlearning, global access, and lifelong learning, making education flexible, diverse, and inclusive.</p>
             </div>
         </div>
     </section>
@@ -330,7 +334,7 @@ include 'header.php'; ?>
     <div class="section">
         <div  class="left">
             <img class="image" class="centered-div" src="images\genie_full.png" alt="Your Image">
-            <p class="description">‘Presenting you the very first demo/prototype of
+            <p style="color: black;" class="description">‘Presenting you the very first demo/prototype of
                  ‘Gi1’ top platform’s 1st industry ‘Genie Media’ (Social)
                   & the 2nd giant ‘Genie mall’ (E-commerce) of top platform’s is
                    coming very soon & more on.</p>

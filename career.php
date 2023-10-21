@@ -11,9 +11,9 @@ include 'header.php'; ?>
       <div class="row">
         <div class="col-sm-8 m-auto">
           <!-- Page Title -->
-          <h1>Career</h1>
+          <h1><strong>Career</strong></h1>
           <!-- Page Description -->
-          <p>Gi1 is an innovative and fast-growing startup dedicated to Super App. We are seeking highly skilled and creative Mobile Application Developers and Website Developers to join our dynamic team and play a pivotal role in shaping our digital presence.</p>
+          <p><strong>Gi1 is an innovative and fast-growing startup dedicated to Super App. We are seeking highly skilled and creative Mobile Application Developers and Website Developers to join our dynamic team and play a pivotal role in shaping our digital presence.</strong></p>
         </div>
       </div>
     </div>
@@ -34,9 +34,9 @@ include 'header.php'; ?>
             <!-- written-content -->
             <div class="content">
               <!-- Career heading -->
-              <h2>Who we're looking for</h2>
+              <h2><strong>Who we're looking for</strong></h2>
               <!-- Career Description -->
-              <p>Develop and maintain responsive websites with a focus on user experience.Collaborate with designers to implement visually appealing web designs.Ensure the website's performance, security, and scalability.Optimize website speed and SEO.Stay up-to-date with web development trends and technologies.</p>
+              <p><strong>Develop and maintain responsive websites with a focus on user experience.Collaborate with designers to implement visually appealing web designs.Ensure the website's performance, security, and scalability.Optimize website speed and SEO.Stay up-to-date with web development trends and technologies.</strong></p>
             </div>
             <!-- Promo Video -->
             <div class="video">
@@ -100,8 +100,14 @@ include 'header.php'; ?>
         <div class="col-12 col-lg-10 m-auto">
           <div class="block">
             <div class="title text-center">
-              <h2>Job Opening</h2>
+              <h2><strong>Job Opening</strong></h2>
             </div>
+            <div>
+              <p style="color: black;">
+                "We are excited to announce a new job opening at our company! We are looking for a highly motivated and skilled individual to join our dynamic team. As a key member of our organization, you will have the opportunity to contribute to our mission and drive innovation in your role. If you are a dedicated professional who is passionate about making a meaningful impact and enjoys working in a collaborative and supportive environment, we encourage you to apply. This is your chance to be part of a forward-thinking company that values creativity, diversity, and excellence. Join us in shaping the future and building a rewarding career with us."
+              </p>
+            </div>
+          </div>
             <!-- Job List -->
             <div class="job">
                             <!-- Action Button -->
