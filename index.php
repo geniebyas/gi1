@@ -40,7 +40,7 @@ include 'header.php'; ?>
     <div class="video-section">
         <div class="video-container">
             <video autoplay loop muted>
-                <source src="https://firebasestorage.googleapis.com/v0/b/fir-login-ae61d.appspot.com/o/v1%20E%20.mp4?alt=media&token=b392ae10-b828-4541-93b6-f6a15cd506cd" type="video/mp4">
+                <source src="video\Intro_Gi1.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -448,6 +448,9 @@ include 'header.php'; ?>
             </div>
         </div>
     </div>
+
+ 
+
 
 
 
