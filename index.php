@@ -237,7 +237,8 @@ include 'header.php'; ?>
 
 
     <div id="mainDiv">
-        <div id="viewMore" onclick="showPopup()">View More</div>
+    <a class="nav-link btn" href="services.php">View More</a>
+        
     </div>
     <div id="popup">
         <div id="popup-content">
