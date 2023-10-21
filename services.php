@@ -5,368 +5,345 @@ include 'header.php'; ?>
 <!--================================
 =            Page Title            =
 =================================-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Images Section</title>
+	<style>
+		 body {
+            background: linear-gradient(to bottom right, #FEC93B, #084595);
+            font-family: Arial, sans-serif;
+        }
+		.images-container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			padding: 10px;
+		}
+		.image-container-inner{
+			width: 300px;
+			margin: 10px;
+			background-color: #fff;
+			border-radius: 15px;
+			box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+			overflow: hidden;
+			text-align: center;
+		}
+		.section {
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+		.section:hover {
+            transform: scale(1.15);
+        }
+		.image{
+			max-width: 100%; 
+			border-radius: 15px 15px 0px 0px;
+		}
+		.p{
+			padding: 10px; 
+			color: #084595; 
+			background: #FEC93B; 
+			border-radius: 0 0 15px 15px; 
+			margin: 0;
+		}
+		.h3{
+			padding: 10px; 
+			color: #084595;
+			border-radius: 0 0 15px 15px; 
+			margin: 0;
+		}
+	</style>
+</head>
+<body style="background: linear-gradient(90deg, #084595, #FEC93B); margin: 0; padding: 0; font-family: Arial, sans-serif;">
+    <div style="text-align: center; padding: 20px;">
+        <h2 style="color: #FEC93B; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Our Services</h2>
+        <p style="color: white; font-size: 20px;">Explore our collection of world best industries.</p>
+    </div>
+	
+    <div class="images-container">
+        <!-- You can repeat the following div 30 times with different images and descriptions -->
+		
+		<!-- INDUSTRY-1 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">Gi1 Media</h3>
+            <img src="services\Gi1Media.png" alt="Image 1" class="image">
+            
+        </div>
+		</div>
+		
+		<!-- INDUSTRY-2 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">Gi1 Mall</h3>
+            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
+          
+        </div>
+		</div>
 
-<section class="section page-title">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-8 m-auto">
-				<!-- Page Title -->
-				<h1>Gi1 Services</h1>
-				<!-- Page Description -->
-				<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
-			</div>
+		<!-- INDUSTRY-3 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
+           
+        </div>
 		</div>
-	</div>
-</section>
 
-<!--====  End of Page Title  ====-->
+		<!-- INDUSTRY-4 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
+           
+        </div>
+		</div>
 
-<!--======================================
-=            Featured Article            =
-=======================================-->
-<section class="section featured-article">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<article class="featured">
-					<!-- Image -->
-					<div class="image">
-						<a href="blog-single.html"><img class="img-fluid" src="images/feature/featured-article.jpg" alt="featured-article"></a>
-					</div>
-					<!-- written-content -->
-					<div class="content">
-						<!-- Post Title -->
-						<h2><a href="blog-single.html">Introducing New IOS App</a></h2>
-						<!-- Tags -->
-						<ul class="list-inline post-tag">
-							<li class="list-inline-item">
-								<img class="img-fluid" src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-							</li>
-							<li class="list-inline-item">
-								<a href="#">Thomas Johnson</a>
-							</li>
-							<li class="list-inline-item">
-								August 8, 2017
-							</li>
-						</ul>
-						<!-- Post Body -->
-						<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed,convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis</p>
-						<a class="btn btn-main-sm" href="blog-single.html">Read more</a>
-					</div>
-				</article>
-			</div>
+		<!-- INDUSTRY-5 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
+           
+        </div>
 		</div>
-	</div>
-</section>
 
-<!--====  End of Featured Article  ====-->
-<section class="post-grid section pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-01.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Innovation distinguishes between a leader and a follower.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-02.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Design is not just what it looks like and feels like. Design is how it works.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-03.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Design is not just what it looks like and feels like. Design is how it works.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-01.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Innovation distinguishes between a leader and a follower.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-02.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Design is not just what it looks like and feels like. Design is how it works.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-03.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Design is not just what it looks like and feels like. Design is how it works.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-12">
-				<!-- Call to action Community -->
-<div class="cta-community shadow">
-	<div class="row align-items-center">
-		<div class="col-lg-9 text-center text-lg-left">
-			<div class="content">
-				<!-- Title -->
-				<h2>Ready To Join Our Community?</h2>
-				<!-- Description -->
-				<p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. </p>
-			</div>
+		<!-- INDUSTRY-6 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
+           
+        </div>
 		</div>
-		<div class="col-lg-3 text-center text-lg-right mt-4 mt-lg-0">
-			<div class="action-button">
-				<!-- Call Button -->
-				<a href="contact.html" class="btn btn-main-sm">Join now</a>
-			</div>
+
+		<!-- INDUSTRY-7 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
 		</div>
-	</div>
-</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-01.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Innovation distinguishes between a leader and a follower.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-02.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Design is not just what it looks like and feels like. Design is how it works.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Post -->
-<article class="post-sm">
-	<!-- Post Image -->
-	<div class="post-thumb">
-		<a href="blog-single.html"><img class="w-100" src="images/blog/post-03.jpg" alt="Post-Image"></a>		
-	</div>
-	<!-- Post Title -->
-	<div class="post-title">
-		<h3><a href="blog-single.html">Design is not just what it looks like and feels like. Design is how it works.</a></h3>
-	</div>
-	<!-- Post Meta -->
-	<div class="post-meta">
-		<ul class="list-inline post-tag">
-			<li class="list-inline-item">
-				<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="author-thumb">
-			</li>
-			<li class="list-inline-item">
-				<a href="#">Thomas Johnson</a>
-			</li>
-			<li class="list-inline-item">
-				August 8, 2017
-			</li>
-		</ul>
-	</div>
-	<!-- Post Details -->
-	<div class="post-details">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-	</div>
-</article>
-			</div>
-			
+
+		<!-- INDUSTRY-8 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
 		</div>
-	</div>
-</section>
+
+		<!-- INDUSTRY-9-->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-10 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-11 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-12 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-13 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-14 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-15 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-16 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-17 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-18 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-19 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-20 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-21 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-22 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-23 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-24 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-25 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-26 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-27 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-28 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-29 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		<!-- INDUSTRY-30 -->
+        <div class="section">
+		<div class="image-container-inner">
+			<h3 class="h3">INDUSTRY</h3>
+			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
+
+        </div>
+		</div>
+
+		
+
+
+        <!-- Repeat the above div structure for the remaining 29 images and descriptions -->
+    </div>
+</body>
+</html>
+
 
 <!--============================
 =            Footer            =
