@@ -10,7 +10,6 @@ include 'header.php'; ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floating Images Section</title>
 	<style>
 		 body {
             background: linear-gradient(to bottom right, #FEC93B, #084595);
@@ -23,7 +22,7 @@ include 'header.php'; ?>
 			padding: 10px;
 		}
 		.image-container-inner{
-			width: 300px;
+			width: 200px;
 			margin: 10px;
 			background-color: #fff;
 			border-radius: 15px;
@@ -36,11 +35,12 @@ include 'header.php'; ?>
             transition: transform 0.3s;
         }
 		.section:hover {
-            transform: scale(1.15);
+            transform: scale(1.25);
         }
 		.image{
 			max-width: 100%; 
 			border-radius: 15px 15px 0px 0px;
+			
 		}
 		.p{
 			padding: 10px; 
@@ -52,9 +52,14 @@ include 'header.php'; ?>
 		.h3{
 			padding: 10px; 
 			color: #084595;
+			font-weight: 100px;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 			border-radius: 0 0 15px 15px; 
 			margin: 0;
 		}
+		.fullscreen-image {
+    cursor: pointer;
+  }
 	</style>
 </head>
 <body style="background: linear-gradient(90deg, #084595, #FEC93B); margin: 0; padding: 0; font-family: Arial, sans-serif;">
@@ -70,7 +75,13 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">Gi1 Media</h3>
-            <img src="services\Gi1Media.png" alt="Image 1" class="image">
+            <img 
+			src="services\Gi1Media.png" 
+			class="image"
+			alt="Full-Screen Image"
+			onclick="toggleFullscreen(this)">
+			
+
             
         </div>
 		</div>
@@ -79,7 +90,10 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">Gi1 Mall</h3>
-            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
+            <img src="services\Gi1Mall.png" 
+			alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
           
         </div>
 		</div>
@@ -87,8 +101,10 @@ include 'header.php'; ?>
 		<!-- INDUSTRY-3 -->
         <div class="section">
 		<div class="image-container-inner">
-			<h3 class="h3">INDUSTRY</h3>
-            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
+			<h3 class="h3">Gi1 VideoHub</h3>
+            <img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
            
         </div>
 		</div>
@@ -97,8 +113,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
-           
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>           
         </div>
 		</div>
 
@@ -106,8 +123,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
-           
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>           
         </div>
 		</div>
 
@@ -115,8 +133,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-            <img src="services\Gi1Mall.png" alt="Image 1" class="image">
-           
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>           
         </div>
 		</div>
 
@@ -124,8 +143,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -133,8 +153,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -142,8 +163,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -151,8 +173,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -160,8 +183,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -169,8 +193,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -178,8 +203,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -187,8 +213,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -196,8 +223,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -205,8 +233,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -214,8 +243,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -223,8 +253,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -232,8 +263,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -241,8 +273,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -250,8 +283,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -259,8 +293,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -268,8 +303,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -277,8 +313,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -286,8 +323,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -295,8 +333,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -304,8 +343,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -313,8 +353,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -322,8 +363,9 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
 
@@ -331,10 +373,25 @@ include 'header.php'; ?>
         <div class="section">
 		<div class="image-container-inner">
 			<h3 class="h3">INDUSTRY</h3>
-			<img src="services\Gi1Mall.png" alt="Image 1" class="image">
-
+			<img src="services\Gi1VideoHub.png" alt="Image 1" class="image"
+			onclick="toggleFullscreen(this)"
+			>
         </div>
 		</div>
+
+		 <script>
+    function toggleFullscreen(image) {
+      if (image.requestFullscreen) {
+        image.requestFullscreen();
+      } else if (image.mozRequestFullScreen) { // Firefox
+        image.mozRequestFullScreen();
+      } else if (image.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+        image.webkitRequestFullscreen();
+      } else if (image.msRequestFullscreen) { // IE/Edge
+        image.msRequestFullscreen();
+      }
+    }
+  </script>
 
 		
 

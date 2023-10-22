@@ -2,67 +2,102 @@
 session_start();
 $_SESSION['current_session'] = "starships";  
 include 'header.php'; ?>
+
+<!--================================
+=            Stars             =
+=================================-->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        body {
-            background: linear-gradient(to bottom, #084595, #FEC93B);
-            margin: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
+<style>
+  .stars-section {
+    background: linear-gradient(to right, #084595, #FEC93B);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .section-heading {
+    color: #FFFFFF;
+  }
+
+  .section-description {
+    color: #FFFFFF;
+  }
+
+  .star-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .star:hover {
+            transform: scale(1.25);
         }
 
-        .section {
-            background: #fff;
-            border-radius: 15px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            margin: 10px;
-            padding: 20px;
-            width: calc(30% - 20px);
-            text-align: center;
-            transition: transform 0.3s;
-        }
+  .star {
+    flex: 0 0 calc(20% - 20px);
+    border-radius: 50%;
+    background: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
 
-        .section:hover {
-            transform: scale(1.05);
-        }
-
-        .image-container {
-            border-radius: 15px;
-            overflow: hidden;
-            width: 300px;
-            height: 200px;
-            margin: 0 auto;
-        }
-
-        .image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .description {
-            padding: 10px;
-            color: #333;
-        }
-    </style>
+  .star:nth-child(2n) {
+    background: #FFFFFF;
+    color: #084595;
+  }
+  .p{
+		padding: 10px; 
+		color: #084595; 
+		background: #FEC93B; 
+		border-radius: 0 0 15px 15px; 
+		margin: 0;
+	}
+</style>
 </head>
 <body>
-    <div class="section">
-        <div class="image-container">
-            <img class="image" src="image1.jpg" alt="Image 1">
-        </div>
-        <div class="description">
-            Description for Image 1
-        </div>
-    </div>
-    <!-- Repeat the above section for 30 images with descriptions -->
+  <div class="stars-section">
+    <h2 class="section-heading">Beautiful Stars Section</h2>
+    <p class="section-description">Discover the beauty of the night sky with these stunning stars.</p>
 
+    <div class="star-container">
+      <div class="star">
+        <img src="stars\VIBGYOR.png" alt="Star 1" width="100">
+        <p class="P" style="color:#084595 ;">Star 1 Description</p>
+      </div>
+
+      <div class="star">
+        <img src="stars\GOLDEN.png" alt="Star 2" width="100">
+        <p class="P">Star 2 Description</p>
+      </div>
+
+      <div class="star">
+        <img src="stars\SILVER.png" alt="Star 3" width="100">
+        <p>Star 3 Description</p>
+      </div>
+
+      <div class="star">
+        <img src="stars\BLUE.png" alt="Star 4" width="100">
+        <p>Star 4 Description</p>
+      </div>
+
+      <div class="star">
+        <img src="stars\BLACK.png" alt="Star 5" width="100">
+        <p>Star 5 Description</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
+
+<!--================================
+=            end stars            =
+=================================-->
 
 <?php include 'footer.php';?>
