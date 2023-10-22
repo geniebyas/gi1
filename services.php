@@ -64,7 +64,7 @@ include 'header.php'; ?>
 </head>
 <body style="background: linear-gradient(90deg, #084595, #FEC93B); margin: 0; padding: 0; font-family: Arial, sans-serif;">
     <div style="text-align: center; padding: 20px;">
-        <h2 style="color: #FEC93B; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Our Services</h2>
+        <h2 style="color: #FEC93B; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-weight: bold;">Our Services</h2>
         <p style="color: white; font-size: 20px;">Explore our collection of world best industries.</p>
     </div>
 	
