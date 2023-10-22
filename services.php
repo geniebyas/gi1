@@ -34,9 +34,9 @@ include 'header.php'; ?>
             padding: 20px;
             transition: transform 0.3s;
         }
-		/* .section:hover {
+		.section:hover {
             transform: scale(1.25);
-        } */
+        }
 		.image{
 			max-width: 100%; 
 			border-radius: 15px 15px 0px 0px;

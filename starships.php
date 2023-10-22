@@ -68,27 +68,32 @@ include 'header.php'; ?>
     <div class="star-container">
       <div class="star">
         <img src="stars\VIBGYOR.png" alt="Star 1" width="100">
-        <p class="P" style="color:#084595 ;">Star 1 Description</p>
+        <p class="P" style="color:#084595 ;">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+        how we can make your digital dreams come true.</p>
       </div>
 
       <div class="star">
         <img src="stars\GOLDEN.png" alt="Star 2" width="100">
-        <p class="P">Star 2 Description</p>
+        <p class="P" style="color:#084595 ;">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+        how we can make your digital dreams come true.</p>
       </div>
 
       <div class="star">
         <img src="stars\SILVER.png" alt="Star 3" width="100">
-        <p>Star 3 Description</p>
+        <p class="P" style="color:#084595 ;">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+        how we can make your digital dreams come true.</p>
       </div>
 
       <div class="star">
         <img src="stars\BLUE.png" alt="Star 4" width="100">
-        <p>Star 4 Description</p>
+        <p class="P" style="color:#084595 ;">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+        how we can make your digital dreams come true.</p>
       </div>
 
       <div class="star">
         <img src="stars\BLACK.png" alt="Star 5" width="100">
-        <p>Star 5 Description</p>
+        <p class="P" style="color:#084595 ;">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+        how we can make your digital dreams come true.</p>
       </div>
     </div>
   </div>
