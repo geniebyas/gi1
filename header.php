@@ -42,6 +42,7 @@
 	<!-- CUSTOM CSS -->
 	<link href="css/style.css" rel="stylesheet">
 
+
 </head>
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">

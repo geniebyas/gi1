@@ -1,16 +1,14 @@
 <?php
 session_start();
 $_SESSION['current_session'] = "services";  
-include 'header.php'; ?>
+include 'header.php';
+include 'common/connection.php';
+ ?>
 <!--================================
 =            Page Title            =
 =================================-->
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
+<style>
 		 body {
             background: linear-gradient(to bottom right, #FEC93B, #084595);
             font-family: Arial, sans-serif;
@@ -62,15 +60,43 @@ include 'header.php'; ?>
   }
 	</style>
 </head>
-<body style="background: linear-gradient(90deg, #084595, #FEC93B); margin: 0; padding: 0; font-family: Arial, sans-serif;">
     <div style="text-align: center; padding: 20px;">
         <h2 style="color: #FEC93B; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-weight: bold;">Our Services</h2>
         <p style="color: white; font-size: 20px;">Explore our collection of world best industries.</p>
     </div>
 	
-    <div class="images-container">
+   
         <!-- You can repeat the following div 30 times with different images and descriptions -->
+		<?php 
+
+				// try{
+				// 	$getServicesSql = "select * from services where status = 'true'";
+				// 	$result = mysqli_query($conn, $getServicesSql);
+
+				// 	if($result->fetch_assoc()){
+
+				// while($service = $result->fetch_assoc()){
+				// 	echo '
+				// 	<div class="section">
+				// 	<div class="image-container-inner">
+				// 		<h3 class="h3">'.$service['name'].'</h3>
+				// 		<img 
+				// 		src='.$service['img'].' 
+				// 		class="image"
+				// 		alt="Full-Screen Image"
+				// 		onclick="toggleFullscreen(this)">';
+				// }
+				// 	}
+				// }catch(Exception $e){
+				// echo '<script>alert(' + $e->getMessage() + ';</script>';
+				// }
+			
 		
+		?>
+		
+
+
+ <div class="images-container">
 		<!-- INDUSTRY-1 -->
         <div class="section">
 		<div class="image-container-inner">
@@ -398,8 +424,6 @@ include 'header.php'; ?>
 
         <!-- Repeat the above div structure for the remaining 29 images and descriptions -->
     </div>
-</body>
-</html>
 
 
 <!--============================
