@@ -206,7 +206,7 @@ include 'header.php'; ?>
     <div class="col-md-3 m-1">
       <div class="card">
         <div class="card-header hover-zoom">
-          <img src="images/team/shakil.png" alt="Aamir" class="image-round">
+          <img src="images/team/aamir.jpg" alt="Aamir" class="image-round">
         </div>
         <div class="card-body">
           <h3>Aamir Dudhwala</h3>
@@ -227,7 +227,7 @@ include 'header.php'; ?>
     <div class="col-md-3 m-1">
   <div class="card">
     <div class="card-header hover-zoom">
-      <img src="images/team/shakil.png" alt="Sahil" class="image-round">
+      <img src="images/team/sahil.jpg" alt="Sahil" class="image-round">
     </div>
     <div class="card-body">
       <h3>Sahil Patel</h3>
