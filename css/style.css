@@ -25,10 +25,7 @@ body
   padding: 20px; /* Add padding or styling as needed */
   background-color: white; /* Just for visualization */
 }
-{
-  font-family: "Open Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
+
 .my-div {
   padding-top: 20px; /* Adjust the value to set the desired spacing */
   border: 1px solid rgba(22, 22, 141, 0); /* Just to visualize the div */
@@ -212,7 +209,7 @@ a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 .section-title {
@@ -1963,12 +1960,17 @@ hr {
 
 .image {
   border-radius: 3xl;
-  margin-bottom: 5px;
   margin-right: 0;
-  overflow: hidden;
+  overflow:inherit;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.image-about {
+  margin-bottom: 5px;
+  margin-right: 0;
+  max-width: 100px;
 }
 
 .data {
