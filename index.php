@@ -159,71 +159,81 @@ include 'header.php'; ?>
     <h1 style="font-size: 40px; margin: 30px 0; font-weight: bold;">Our Services</h1>
 </div>
 
-<div class="col-12">
+<div class="container">
     <style>
         li {
             text-align: left;
         }
     </style>
-    <div class="col-12 text-center">
-        <div class="card col-md-3 m-1">
-            <div class="card-header">
-                <h2>Top Platforms</h2>
-            </div>
-            <div class="card-body">
-                <ul>
-                    <li>Gi1 Media</li>
-                    <li>Gi1 Mall</li>
-                    <li>Gi1 Video Hub</li>
-                    <li>Gi1 Edits</li>
-                    <li>Gi1 Game Zone</li>
-                    <li>Gi1 Beauty</li>
-                    <li>Gi1 Travels</li>
-                    <li>Gi1 Podcasts</li>
-                    <li>Gi1 Classes</li>
-                    <li>Gi1 Hiring</li>
-                </ul>
-            </div>
-        </div>
-        <div class="card col-md-3 m-1">
-            <div class="card-header">
-                <h2>Main Platforms</h2>
-            </div>
-            <div class="card-body">
-                <ul>
-                    <li>Gi1 Health</li>
-                    <li>Gi1 Memes</li>
-                    <li>Gi1 Trading</li>
-                    <li>Gi1 Languages</li>
-                    <li>Gi1 Kids Zone</li>
-                    <li>Gi1 Real Estate</li>
-                    <li>Gi1 Sports</li>
-                    <li>Gi1 Freelance</li>
-                    <li>Gi1 Comedy</li>
-                    <li>Gi1 News</li>
-                </ul>
+    <div class="row justify-content-center">
+        <div class="col-md-4 m-1">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Top Platforms</h2>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Gi1 Media</li>
+                        <li>Gi1 Mall</li>
+                        <li>Gi1 Video Hub</li>
+                        <li>Gi1 Edits</li>
+                        <li>Gi1 Game Zone</li>
+                        <li>Gi1 Beauty</li>
+                        <li>Gi1 Travels</li>
+                        <li>Gi1 Podcasts</li>
+                        <li>Gi1 Classes</li>
+                        <li>Gi1 Hiring</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="card col-md-3 m-1">
-            <div class="card-header">
-                <h2>Extra Categories</h2>
+
+        <div class="col-md-4 m-1">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Main Platforms</h2>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Gi1 Health</li>
+                        <li>Gi1 Memes</li>
+                        <li>Gi1 Trading</li>
+                        <li>Gi1 Languages</li>
+                        <li>Gi1 Kids Zone</li>
+                        <li>Gi1 Real Estate</li>
+                        <li>Gi1 Sports</li>
+                        <li>Gi1 Freelance</li>
+                        <li>Gi1 Comedy</li>
+                        <li>Gi1 News</li>
+                    </ul>
+                </div>
             </div>
-            <div class="card-body">
-                <ul>
-                    <li>Gi1 Sharing</li>
-                    <li>Gi1 Legal</li>
-                    <li>Gi1 Docs</li>
-                    <li>Gi1 Book Store</li>
-                    <li>Gi1 Reciepes</li>
-                    <li>Gi1 Caller</li>
-                    <li>Gi1 A.I.</li>
-                    <li>Gi1 App Locks</li>
-                    <li>Gi1 Multiverse</li>
-                </ul>
+        </div>
+
+        <div class="col-md-4 m-1">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Extra Categories</h2>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>Gi1 Sharing</li>
+                        <li>Gi1 Legal</li>
+                        <li>Gi1 Docs</li>
+                        <li>Gi1 Book Store</li>
+                        <li>Gi1 Reciepes</li>
+                        <li>Gi1 Caller</li>
+                        <li>Gi1 A.I.</li>
+                        <li>Gi1 App Locks</li>
+                        <li>Gi1 Multiverse</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 <style>
@@ -725,7 +735,148 @@ include 'header.php'; ?>
         align-items: center;
         flex-direction: column;
     }
+
+        .container-investor {
+            background-color: #ffffff;
+            border-radius: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+        .pdf-container {
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        h1 {
+            font-weight: bold;
+            text-align: center;
+            color: #084595;
+        }
+        h2 {
+            font-size: 30px;
+            color: #084595;
+            text-align: left;
+            
+        }
+        .pdf-preview {
+            width: 100%;
+            max-width: 300px;
+        
+        }
+
+        
+
+        .star-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .star:hover {
+      transform: scale(1.25);
+    }
+
+    .star {
+      flex: 0 0 calc(20% - 20px);
+      border-radius: 30%;
+      background: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+      color: #FFFFFF;
+      margin: 10px;
+      transition: transform 0.3s;
+      border: 1px solid #333;
+    }
+
+    .star:nth-child(2n) {
+      background: #FFFFFF;
+      color: #084595;
+    }
+
+    .p-star {
+      padding: 10px;
+      color: #084595;
+      margin: 0;
+      overflow: hidden;
+    }
+
 </style>
+
+
+<section class="section justify-content-center">
+<div class="container-investor">
+    <div class="card-header">
+        <h2 class="text-center">Investor Relation</h2>
+    </div>
+        <div class="row">
+            <div align="left" class="col-md-6">
+                <div class="pdf-container">
+                    <h2>PITCH DECK</h2>
+                    <embed class="pdf-preview" src="materials\pdf Gi 1 pitchdeck.pdf#page=1" type="application/pdf" />
+                    <a href="materials\pdf Gi 1 pitchdeck.pdf" target="_blank">Open PITCH DECK</a>
+                </div>
+            </div>
+         
+            <div align="left" class="col-md-6">
+                <div class="pdf-container">
+                    <h2>MOCKUP</h2>
+                    <embed class="pdf-preview" src="materials\G - 1 WIREFRAME..pdf#page=1" type="application/pdf" />
+                    <a href="materials\G - 1 WIREFRAME..pdf" target="_blank">Open MOCKUP</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<section class="section justify-content-center m-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="text-center">Gi1 Stars</h3>
+          </div>
+          <div class="star-container row">
+            <div class="star col-md-2">
+              <img src="stars\VIBGYOR.png" alt="Star 1" width="100">
+              <p class="p-star">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+                how we can make your digital dreams come true.</p>
+            </div>
+
+            <div class="star col-md-2">
+              <img src="stars\GOLDEN.png" alt="Star 2" width="100">
+              <p class="p-star">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+                how we can make your digital dreams come true.</p>
+            </div>
+
+            <div class="star col-md-2">
+              <img src="stars\SILVER.png" alt="Star 3" width="100">
+              <p class="p-star">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+                how we can make your digital dreams come true.</p>
+            </div>
+
+            <div class="star col-md-2">
+              <img src="stars\BLUE.png" alt="Star 4" width="100">
+              <p class="p-star">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+                how we can make your digital dreams come true.</p>
+            </div>
+
+            <div class="star col-md-2">
+              <img src="stars\BLACK.png" alt="Star 5" width="100">
+              <p class="p-star">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
+                how we can make your digital dreams come true.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <section class="about-us-section">
     <div class="container">
