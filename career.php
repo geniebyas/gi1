@@ -13,7 +13,7 @@ include 'header.php'; ?>
           <!-- Page Title -->
           <h1><strong>Career</strong></h1>
           <!-- Page Description -->
-          <p><strong>Gi1 is an innovative and fast-growing startup dedicated to Super App. We are seeking highly skilled and creative Mobile Application Developers and Website Developers to join our dynamic team and play a pivotal role in shaping our digital presence.</strong></p>
+          <p><strong>‘Grab the opportunity with our futuristic startup as we invite you to seize your dream job & position by showcasing your exceptional talent and joining a high-powered team shaping the future of the globe.’</strong></p>
         </div>
       </div>
     </div>
@@ -107,21 +107,20 @@ include 'header.php'; ?>
                 "We are excited to announce a new job opening at our company! We are looking for a highly motivated and skilled individual to join our dynamic team. As a key member of our organization, you will have the opportunity to contribute to our mission and drive innovation in your role. If you are a dedicated professional who is passionate about making a meaningful impact and enjoys working in a collaborative and supportive environment, we encourage you to apply. This is your chance to be part of a forward-thinking company that values creativity, diversity, and excellence. Join us in shaping the future and building a rewarding career with us."
               </p>
             </div>
-          </div>
-            <!-- Job List -->
-            <div class="job">
-                            <!-- Action Button -->
-              <div class="container">
-                <a href="https://surveyheart.com/form/64f42247dcee497bfb1fe0b6" class="btn btn-main-sm" >Apply Now</a>
+            <div class="container">
+                <a href="https://surveyheart.com/form/64f42247dcee497bfb1fe0b6" class="btn btn-success m-3" >Apply Now</a>
                 <!-- Modal -->
                 
               </div>
-            </div>
+          </div>
+            <!-- Job List -->
           </div>
         </div>
       </div>
     </div>
   </section>
+  <div class="container" style="height: 100px;"></div>
+
   <!--====  End of Job lists  ====-->
 
   <!--============================

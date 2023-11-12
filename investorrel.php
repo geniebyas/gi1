@@ -1,27 +1,14 @@
 <?php
 session_start();
 $_SESSION['current_session'] = "investorrel";  
-include 'header.php'; ?>
-
-
-<!-- Content start -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background: linear-gradient(to bottom right, #FEC93B, #084595);
-            font-family: Arial, sans-serif;
-        }
-        .container {
+include 'header.php'; 
+?>
+<style>
+        .container-inv {
             background-color: #ffffff;
             border-radius: 15px;
-            margin-top: 10px;
             margin-bottom: 10px;
-            padding: 20px;
+            padding: 10px;
         }
         .pdf-container {
             border: 1px solid #ddd;
@@ -45,10 +32,8 @@ include 'header.php'; ?>
         
         }
     </style>
-</head>
-<body>
-    <div class="container">
-        
+    <div style="height: 80px;"></div>
+    <div class="container-inv m-4">
         <p style="color: black;" class="p"><strong>
         
 Pitching you- 'Gi1,' the ultimate all-in-one super app
@@ -65,9 +50,8 @@ converges into a single user-centric hub.
 
         </strong></p>
         </div>
-    </div>
 
-    <div class="container">
+    <div class="container-inv m-4">
         <div class="row">
             <div align="left" class="col-md-6">
                 <div class="pdf-container">
@@ -79,20 +63,14 @@ converges into a single user-centric hub.
          
             <div align="left" class="col-md-6">
                 <div class="pdf-container">
-                    <h2>MOCKUP</h2>
-                    <embed class="pdf-preview" src="materials\G - 1 WIREFRAME..pdf#page=1" type="application/pdf" />
-                    <a href="materials\G - 1 WIREFRAME..pdf" target="_blank">Open MOCKUP</a>
+                    <h2>Design Document</h2>
+                    <embed class="pdf-preview" src="materials\designDoc.pdf#page=1" type="application/pdf" />
+                    <a href="materials\designDoc.pdf" target="_blank">Open Design Document</a>
                 </div>
             </div>
             
         </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
 
 
 <!-- Content end -->

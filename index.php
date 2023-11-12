@@ -83,10 +83,7 @@ include 'header.php'; ?>
         <div class="row align-items-center">
             <div class="col-md-6 order-2 order-md-1 text-center text-md-left">
                 <h1 class="text-white font-weight-bold mb-4">All In One In Gi1</h1>
-                <p class="text-white mb-5">'Gi1' is the world 1<sup>st</sup> super app with all the top & trending platforms
-                    of the time in just 1 app.
-                    it's complete mall of apps with a complete A-Z bunch of all wanted industries,
-                    categories & sevices in only 1 super app.</p>
+                <p class="text-white mb-5">'Gi1,' the world's 1<sup>st</sup> super app, embark on a revolutionary digital journey. Uniting top-tier platforms, it serves as the ultimate mall of apps, offering a comprehensive A-Z selection across industries and categories. Elevate your convenience and access all you need in a single, sophisticated app—'Gi1,' where innovation meets seamless functionality.</p>
             </div>
             <div class="col-md-6 text-center order-1 order-md-2">
                 <img class="img-fluid" height="550" width="300" src="images/phone1.png" alt="screenshot">
@@ -382,10 +379,7 @@ include 'header.php'; ?>
 <div class="section">
     <div class="left">
         <img class="image" class="centered-div" src="images\genie_full.png" alt="Your Image">
-        <p style="color: black;" class="description">‘Presenting you the very first demo/prototype of
-            ‘Gi1’ top platform’s 1st industry ‘Genie Media’ (Social)
-            & the 2nd giant ‘Genie mall’ (E-commerce) of top platform’s is
-            coming very soon & more on.</p>
+        <p style="color: black;" class="description">Witness the grand debut of our flagship platform’s prototype. 'Gi1’ 1<sup>st</sup> Top platform- 'Genie Media' (Social), where connections flourish and creativity soars. Behold the 2<sup>nd</sup> giant of Top platform- 'Genie Mall' (E-commerce), a digital mall that redefines convenience & satisfaction, coming soon.</p>
     </div>
     <div class="right">
         <div class="play-button">&#9654;</div>
@@ -521,7 +515,7 @@ include 'header.php'; ?>
                 </div>
 
                 <div class="testimonial">
-                    <img src="images\slider\slide_3.png" alt="Testimonial 4">
+                    <img src="images\slider\gi1missionaimvision.png" alt="Testimonial 4">
                 </div>
                 <div class="testimonial">
                     <img src="images\slider\slide_2.png" alt="Testimonial 5">
@@ -537,7 +531,7 @@ include 'header.php'; ?>
         <div class="card-header text-center">Market Research Form</div>
         <div class="card-body">
             <div class="col">
-                <form action="feedback.php" class="form-group" method="post">
+                <form action="feedback.php" role="form" class="php-email-form" method="post">
                     <div class="col m-2">
                         <h5 class="form-label">A> How much will 1 super app for all benefit you?(%)</h5>
                         <input type="number" name="benefit_count" placeholder="%" class="form-control" required>
@@ -804,7 +798,7 @@ include 'header.php'; ?>
 </style>
 
 
-<section class="section justify-content-center">
+<section class="section justify-content-center m-2">
 <div class="container-investor">
     <div class="card-header">
         <h2 class="text-center">Investor Relation</h2>
@@ -812,7 +806,7 @@ include 'header.php'; ?>
         <div class="row">
             <div align="left" class="col-md-6">
                 <div class="pdf-container">
-                    <h2>PITCH DECK</h2>
+                    <h2>Pitch Deck</h2>
                     <embed class="pdf-preview" src="materials\pdf Gi 1 pitchdeck.pdf#page=1" type="application/pdf" />
                     <a href="materials\pdf Gi 1 pitchdeck.pdf" target="_blank">Open PITCH DECK</a>
                 </div>
@@ -820,26 +814,27 @@ include 'header.php'; ?>
          
             <div align="left" class="col-md-6">
                 <div class="pdf-container">
-                    <h2>MOCKUP</h2>
-                    <embed class="pdf-preview" src="materials\G - 1 WIREFRAME..pdf#page=1" type="application/pdf" />
-                    <a href="materials\G - 1 WIREFRAME..pdf" target="_blank">Open MOCKUP</a>
+                    <h2>Design Document</h2>
+                    <embed class="pdf-preview" src="materials\designDoc.pdf#page=1" type="application/pdf" />
+                    <a href="materials\designDoc.pdf" target="_blank">Open Design Document</a>
                 </div>
             </div>
             
         </div>
+        <div class="btn btn-primary m-2" onclick="location.href='investorrel.php'">View More</div>
     </div>
 </section>
 
 
 <section class="section justify-content-center m-2">
   <div class="container">
-    <div class="row">
+    <div class="row" >
       <div class="col-md-12">
-        <div class="card">
+        <div class="card" style="width:100%;">
           <div class="card-header">
             <h3 class="text-center">Gi1 Stars</h3>
           </div>
-          <div class="star-container row">
+          <div class="star-container row m-2">
             <div class="star col-md-2">
               <img src="stars\VIBGYOR.png" alt="Star 1" width="100">
               <p class="p-star">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover 
@@ -870,12 +865,29 @@ include 'header.php'; ?>
                 how we can make your digital dreams come true.</p>
             </div>
           </div>
-        </div>
+            <div class="btn btn-primary m-2" onclick="location.href='starships.php'">View More</div>
+</div>
       </div>
     </div>
   </div>
 </section>
 
+
+<section class="section justify-content-center m-2">
+    <div class="card m-3">
+        <div class="card-header">
+            <h2 class="text-center">Careers</h2>
+        </div>
+      <div class="card-body" style="overflow:auto;">
+        <img src="images/hiring.jpg" alt="we are hiring" class="image-fluid"
+        style="height: 200px;width: 200px;">
+      </div>
+      <div class="card-footer justify-content-center">
+      <div class="btn btn-primary m-2" onclick="location.href='career.php'">View More</div>
+      </div>
+    </div>
+
+  </section>
 
 
 <section class="about-us-section">
@@ -884,8 +896,10 @@ include 'header.php'; ?>
             <h1 style="font-size: 40px; margin: 30px 0; font-weight: bold;">About Us</h1>
         </div>
         <img class="about-us-image" src="images\about\story-slider-01.jpg" alt="About Us">
-        <p class="description">‘Gi1’ is the world 1st super app with al the top & trending platforms ’s a complete mall of apps as we have everything for everyone in 1. We have our own platforms from A-Z every needed apps in 1 place.</p>
+        <p class="description">Introducing 'Gi1,' the super app that brings together the apex of today's most popular 
+industries into a unified digital marvel. With its delightful Genie-inspired theme, who will grant your each & every wish. Welcome the convenience of 1 stop solution for the world & be ready to be a captive by the versatility of 'Gi1,' as its ushers in a new era of streamlined accessibility and fulfils your every aspiration. Experience the future at your fingertips.</p>
     </div>
+    <div class="btn btn-primary m-2" onclick="location.href='about.php'">View More</div>
 </section>
 
 

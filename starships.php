@@ -3,6 +3,17 @@ session_start();
 $_SESSION['current_session'] = "starships";  
 include 'header.php'; ?>
 
+<head>
+
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 <!--================================
 =            Stars             =
 =================================-->
@@ -52,10 +63,7 @@ include 'header.php'; ?>
 <body>
   <div class="stars-section">
     <h2 style="color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Gi1 Stars</h2>
-    <p class="p" >"Elevate your experience across all platforms as a
-eminent 'Gi1' Star Member, where you can select
-your preferred starship & get all benefits in a
-single plan."</p>
+    <p class="p" >"Elevate your experience across all platforms as a eminent 'Gi1' Star Member, where you can select your preferred starship & get all benefits in a single plan."</p>
 
     <div class="star-container">
       <div class="star">

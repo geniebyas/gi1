@@ -39,12 +39,12 @@ include 'header.php'; ?>
 </head>
 
   <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
+  <section class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Contact Us</h2>
-          <p>Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover how we can make your digital dreams come true.</p>
+          <p style="color: white;">Contact 'Gi1' today and let us bring the magic of technology to your fingertips. Reach out to us and discover how we can make your digital dreams come true.</p>
         </div>
 
         <div class="row">
@@ -54,7 +54,7 @@ include 'header.php'; ?>
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Vadodara, Gujarat, India.</p>
               </div>
 
               <div class="email">
@@ -69,13 +69,13 @@ include 'header.php'; ?>
                 <p>+917777975877</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202073.10355534198!2d72.87771455115914!3d22.3221528655628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ab91a3ddab%3A0xac39d3bfe1473fb8!2sVadodara%2C%20Gujarat!5e1!3m2!1sen!2sin!4v1699809081290!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="contact-repo.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -111,8 +111,6 @@ include 'header.php'; ?>
   <!--============================
 =            Footer            =
 =============================-->
-<?php include 'footer.php';?>
-<div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -126,3 +124,4 @@ include 'header.php'; ?>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <?php include 'footer.php';?>
