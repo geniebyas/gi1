@@ -86,7 +86,7 @@ include 'common/connection.php';
 						src=services/images/'.$service['image'].' 
 						class="image"
 						alt="Full-Screen Image"
-						onclick="toggleFullscreen(this)">
+						onclick=toggleFullscreen(this)>
 						</div>
 						</div>';
 				}
