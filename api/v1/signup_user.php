@@ -14,18 +14,14 @@ try {
             if($res === TRUE){
             // Additional code if needed
 
-            header('Content-Type', 'application/json');
             echo json_encode(array("response" => "User registered successfully", "code" => 200));
             }
         } catch (Exception $e) {
-            header('Content-Type', 'application/json');
             echo json_encode(array("response" => $e->getMessage(), "code" => $e->getCode()));
         }
     } else {
-        header('Content-Type', 'application/json');
         echo json_encode(array("response" => "Invalid Request", "code" => 400));
     }
 } catch (Exception $e) {
-    header('Content-Type', 'application/json');
     echo json_encode(array("response" => $e->getMessage(), "code" => $e->getCode()));
 }
