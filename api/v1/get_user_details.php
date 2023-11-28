@@ -2,9 +2,9 @@
 include 'config/connection.php';
 
 try{
-if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['uid'])){
+if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['uid'])){
 
-    $uid = $_GET['uid'];
+    $uid = $_POST['uid'];
 
     $getUser = "SELECT * FROM users WHERE uid = '$uid'";
     $getUserRes = mysqli_query($con,$getUser);
