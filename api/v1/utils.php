@@ -42,12 +42,10 @@ try{
 if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['uid'])){
 
 }else{
-    header('Content-Type', 'application/json');
     echo json_encode(array("response" => "Invalid Request","code"=>400));
 
 }
 }catch(Exception $e){
-    header('Content-Type', 'application/json');
     echo json_encode(array("response" => $e->getMessage(),"code"=>$e->getCode()));
 }
 
