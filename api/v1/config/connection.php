@@ -1,0 +1,16 @@
+<?php
+// Database connection details
+$servername = "gi1host";
+$username = "admin";
+$password = "gi1@infoapp";
+$database = "gi1infoappdb";
+
+// Create a connection
+$conn = new mysqli($servername, $username, $password, $database);
+
+// Check the connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+?>
