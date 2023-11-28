@@ -1,7 +1,7 @@
 <?php
 // Database connection details
 $servername = "gi1host";
-$username = "admin";
+$username = "gi1admin";
 $password = "gi1@infoapp";
 $database = "gi1infoappdb";
 
