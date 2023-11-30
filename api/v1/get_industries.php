@@ -4,7 +4,8 @@ include 'config/connection.php';
 try{
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-    $getIndustries = "SELECT * FROM industry WHERE status = 'true'";
+    $isType = true;
+    $getIndustries = "SELECT * FROM industry WHERE status = '$isType'";
     $result = mysqli_query($con,$getIndustries);
     $industries = array();
     if($result->num_rows > 0){
