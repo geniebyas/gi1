@@ -9,7 +9,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $industries = array();
     if($result->num_rows > 0){
     while($row = mysqli_fetch_assoc($result)){
-        $industries[] = $row;
+        $industry = null;
+        $industry = $row;
+        $industry['status'] = boolval($row['status']);
+        $industry['ispinned'] = boolval($row['ispinned']);
+        $industries[] = $industry;
         }
     }
     if(sizeof($industries) > 0){
