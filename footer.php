@@ -2,7 +2,7 @@
 		<div class="footer-main">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+					<div class="col-lg-4 col-md-12 m-md-auto align-self-center" >
 						<div class="block">
 							<a href="index.php"><img src="images/g1logo.png" style="width: 150px; ;" alt="footer-logo"></a>
 							<!-- Social Site Icons -->
