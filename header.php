@@ -111,14 +111,19 @@
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 	<div class="sticky-wrapper">
-		<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0 sticky-nav">
-			<div class="container d-flex justify-content-between align-items-center">
-				<a class="navbar-brand" href="index.php"><img src="images/websitelogo.png"
-						style="width: 75px; height:75px" alt="logo"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+		<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-0 py-lg-0 sticky-nav">
+			<div class="container d-flex justify-content-between">
+				<div class="row justify-content-between">
+					<a class="col-sm-6 navbar-brand" href="index.php">
+						<img src="images/websitelogo.png"
+						style="width: 75px; height:75px" alt="logo">
+					</a>
+				<button class=" col-sm-6 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="ti-menu"></span>
 				</button>
+				</div>
+				
 				<?php
 				$home = "";
 				$services = "";
