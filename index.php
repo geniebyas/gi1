@@ -21,6 +21,7 @@ include 'header.php'; ?>
 			justify-content: center;
 			align-items: center;
 			background-color: #3498db;
+			padding-top: 100px;
 		}
 
 		.video-container {
