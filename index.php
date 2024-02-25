@@ -30,6 +30,15 @@ include 'header.php'; ?>
         overflow: hidden;
         border-radius: 20px;
     }
+    .introduction-section {
+        margin-top: 50px;
+        padding: 50px 0;
+        
+    }
+    .mobile-image {
+        max-width: 100%;
+        height: 600px;
+    }
 </style>
 
 <section class="video-section d-flex justify-content-center align-items-center">
@@ -39,7 +48,6 @@ include 'header.php'; ?>
                 <div alig="center" class="video-container">
                     <video border-radius="50px"; width="auto" height="auto" autoplay loop muted>
                         <source src="video\Intro_Gi1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
                     </video>
                 </div>
 
@@ -47,6 +55,22 @@ include 'header.php'; ?>
         </div>
     </div>
 </section>
+
+<section class="introduction-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <h2 style="color:white; text-align:center;" ><strong>All In One In Gi1</strong></h2>
+                <p style="color:white; text: size 30px;">'Gi1,' the world's 1<sup>st</sup> super app, embark on a revolutionary digital journey. Uniting top-tier platforms, it serves as the ultimate mall of apps, offering a comprehensive A-Z selection across industries and categories. Elevate your convenience and access all you need in a single, sophisticated app—'Gi1,' where innovation meets seamless functionality.
+            </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/phone1.png" alt="Mobile Image" class="mobile-image">
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Other sections of your homepage -->
 
@@ -62,182 +86,113 @@ include 'header.php'; ?>
 =           End Promo video            =
 =====================================-->
 
-
-<!--====================================
-=            Hero Section            =
-=====================================-->
-<section class="section gradient-banner">
-    <div class="shapes-container">
-        <div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
-        <div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
-        <div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
-        <div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
-        <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-        <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-        <div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
-        <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
-        <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
-        <div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
-        <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
-        <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
-        <div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
-        <div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
-        <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
-        <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
-    </div>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-                <h1 class="text-white font-weight-bold mb-4">All In One In Gi1</h1>
-                <p class="text-white mb-5">'Gi1,' the world's 1<sup>st</sup> super app, embark on a revolutionary digital journey. Uniting top-tier platforms, it serves as the ultimate mall of apps, offering a comprehensive A-Z selection across industries and categories. Elevate your convenience and access all you need in a single, sophisticated app—'Gi1,' where innovation meets seamless functionality.</p>
-            </div>
-            <div class="col-md-6 text-center order-1 order-md-2">
-                <img class="img-fluid" height="550" width="300" src="images/phone1.png" alt="screenshot">
-            </div>
-        </div>
-    </div>
-</section>
-<!--====================================
-=            End Hero Section            =
-=====================================-->
-<!-- </section> -->
 <!--====================================
 =           Services Section            =
 =====================================-->
-
 <style>
     body {
+        background-color: #084595;
+        color: #FFFFFF;
         font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
     }
-
-    .blog-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 20px;
-    }
-
-    .blog-item {
-        width: calc(25% - 20px);
-        margin: 10px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-    }
-
-    .blog-image {
+    .cards-section {
         max-width: 100%;
-        height: auto;
-        border-radius: 10px 10px 0 0;
+        padding: 50px 0;
     }
-
-    .blog-content {
+    .card {
+        border-radius: 20px;
+        border: 20px;
+        max-width: 150%;
+        background-color: #084595;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .card-header {
+        background-color: #FEC93B;
+        border-radius: 20px 20px 20px 20px;
+        border-bottom: none;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    .card-body {
         padding: 20px;
-    }
-
-    .blog-title {
-        color: black;
-        font: status-bar;
-        font-size: 2rem;
-        margin-bottom: 10px;
-    }
-
-    .blog-text {
-        font-size: 1.2rem;
-        color: black;
-
-    }
-
-    @media (max-width: 768px) {
-        .blog-item {
-            width: calc(50% - 20px);
-        }
+       
     }
 </style>
 <div style="font-family: 'Poppins', Arial, sans-serif; text-align: center;">
     <h1 style="font-size: 40px; margin: 30px 0; font-weight: bold;">Our Services</h1>
 </div>
 
-<div class="container">
-    <style>
-        li {
-            text-align: left;
-        }
-        .card-services{
-
-        }
-    </style>
-    <div class="row justify-content-center">
-        <div class="col-md-4 m-1">
-            <div class="card-services">
-                <div class="card-header">
-                    <h2 class="text-center">Top Platforms</h2>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>Gi1 Media</li>
-                        <li>Gi1 Mall</li>
-                        <li>Gi1 Video Hub</li>
-                        <li>Gi1 Edits</li>
-                        <li>Gi1 Game Zone</li>
-                        <li>Gi1 Beauty</li>
-                        <li>Gi1 Travels</li>
-                        <li>Gi1 Podcasts</li>
-                        <li>Gi1 Classes</li>
-                        <li>Gi1 Hiring</li>
-                    </ul>
+<section class="cards-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4><strong>Top Platforms</strong></h4>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                        <li style="color:white"><strong>Gi1 Media</strong></li>
+                        <li style="color:white"><strong>Gi1 Mall</strong></li>
+                        <li style="color:white"><strong>Gi1 Video Hub</strong></li>
+                        <li style="color:white"><strong>Gi1 Edits</strong></li>
+                        <li style="color:white"><strong>Gi1 Game Zone</strong></li>
+                        <li style="color:white"><strong>Gi1 Beauty</strong></li>
+                        <li style="color:white"><strong>Gi1 Travels</strong></li>
+                        <li style="color:white"><strong>Gi1 Podcasts</strong></li>
+                        <li style="color:white"><strong>Gi1 Classes</strong></li>
+                        <li style="color:white"><strong>Gi1 Hiring</strong></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-md-4 m-1">
-            <div class="card">
-                <div class="card-header">
-                    <h2 class="text-center">Main Platforms</h2>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>Gi1 Health</li>
-                        <li>Gi1 Memes</li>
-                        <li>Gi1 Trading</li>
-                        <li>Gi1 Languages</li>
-                        <li>Gi1 Kids Zone</li>
-                        <li>Gi1 Real Estate</li>
-                        <li>Gi1 Sports</li>
-                        <li>Gi1 Freelance</li>
-                        <li>Gi1 Comedy</li>
-                        <li>Gi1 News</li>
-                    </ul>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4><strong>Main Platforms</strong></h4>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                        <li style="color:white"><strong>Gi1 Health</strong></li>
+                        <li style="color:white"><strong>Gi1 Memes</strong></li>
+                        <li style="color:white"><strong>Gi1 Trading</strong></li>
+                        <li style="color:white"><strong>Gi1 Languages</strong></li>
+                        <li style="color:white"><strong>Gi1 Kids Zone</strong></li>
+                        <li style="color:white"><strong>Gi1 Real Estate</strong></li>
+                        <li style="color:white"><strong>Gi1 Sports</strong></li>
+                        <li style="color:white"><strong>Gi1 Freelance</strong></li>
+                        <li style="color:white"><strong>Gi1 Comedy</strong></li>
+                        <li style="color:white"><strong>Gi1 News</strong></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-md-4 m-1">
-            <div class="card">
-                <div class="card-header">
-                    <h2 class="text-center">Extra Categories</h2>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>Gi1 Sharing</li>
-                        <li>Gi1 Legal</li>
-                        <li>Gi1 Docs</li>
-                        <li>Gi1 Book Store</li>
-                        <li>Gi1 Reciepes</li>
-                        <li>Gi1 Caller</li>
-                        <li>Gi1 A.I.</li>
-                        <li>Gi1 App Locks</li>
-                        <li>Gi1 Multiverse</li>
-                    </ul>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4><strong>Others<strong></h4>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                        <li style="color:white"><strong>Gi1 Sharing</strong></li>
+                        <li style="color:white"><strong>Gi1 Legal</strong></li>
+                        <li style="color:white"><strong>Gi1 Docs</strong></li>
+                        <li style="color:white"><strong>Gi1 Book Store</strong></li>
+                        <li style="color:white"><strong>Gi1 Reciepes</strong></li>
+                        <li style="color:white"><strong>Gi1 Caller</strong></li>
+                        <li style="color:white"><strong>Gi1 A.I.</strong></li>
+                        <li style="color:white"><strong>Gi1 App Locks</strong></li>
+                        <li style="color:white"><strong>Gi1 Multiverse</strong></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 
 
