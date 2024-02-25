@@ -75,7 +75,7 @@
 
 	<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
 		<div class="container">
-			<a class="navbar-brand" href="index.php"><img src="images/logoelevated.jpg" style="width: 75px; height:75px" alt="logo"></a>
+			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="ti-menu"></span>
 			</button>
@@ -135,18 +135,23 @@
 
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item  <?php echo $home; ?>">
-						<a class="nav-link btn" href="index.php">Home</a>
+					<li>
+					<a class="navbar-brand" href="index.php"><img src="images/logoelevated.jpg" style="width: 75px; height:75px" alt="logo"></a>
 					</li>
+					<!-- <li class="nav-item  <?php echo $home; ?>">
+						<a class="nav-link btn" href="index.php">Home</a>
+					</li> -->
 					<li class="nav-item <?php echo $services; ?>">
 						<a class="nav-link btn" href="services.php">Gi1 Services</a>
 					</li>
 					<li class="nav-item <?php echo $investorrel; ?>">
 						<a class="nav-link btn" href="investorrel.php">Investor Relation</a>
 					</li>
+					
 					<li class="nav-item <?php echo $starships; ?>">
 						<a class="nav-link btn" href="starships.php">Star & StarShips</a>
 					</li>
+					
 					<li class="nav-item <?php echo $career; ?>">
 						<a class="nav-link btn" href="career.php">Career Options</a>
 					</li>

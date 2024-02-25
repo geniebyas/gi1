@@ -5,49 +5,55 @@ include 'header.php'; ?>
 <!--====================================
 =            Promo Video            =
 =====================================-->
-<section class="section gradient-banner">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    body {
+        background-color: #084595;
+        color: #FFFFFF;
+        align: center;
+        font-family: Arial, sans-serif;
+    }
+    .video-section {
+       
+        align-self: start;
+        border-radius: 100px;
+        padding: 20px;
+        text-align: center;
+        display: inline-block;
+       
+    }
+    .video-container {
+        
+        margin: 0 auto;/* Center the container horizontally */
+        
+        align-self: end;    
+        overflow: hidden;
+        border-radius: 20px;
+    }
+</style>
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
+<section class="video-section d-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div alig="center" class="video-container">
+                    <video border-radius="50px"; width="auto" height="auto" autoplay loop muted>
+                        <source src="video\Intro_Gi1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
 
-        .video-section {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #3498db;
-        }
-
-        .video-container {
-            max-width: 80%;
-            border-radius: 20px;
-            overflow: hidden;
-            position: relative;
-        }
-
-        video {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-    </style>
-
-    <div class="video-section">
-        <div class="video-container">
-            <video autoplay loop muted>
-                <source src="video\Intro_Gi1.mp4" type="video/mp4">
-            </video>
+            </div>
         </div>
     </div>
-
-
-
 </section>
+
+<!-- Other sections of your homepage -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 
 
@@ -161,10 +167,13 @@ include 'header.php'; ?>
         li {
             text-align: left;
         }
+        .card-services{
+
+        }
     </style>
     <div class="row justify-content-center">
         <div class="col-md-4 m-1">
-            <div class="card">
+            <div class="card-services">
                 <div class="card-header">
                     <h2 class="text-center">Top Platforms</h2>
                 </div>
