@@ -23,22 +23,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 	<meta name="author" content="Gi1">
 	<meta name="generator" content="Gi1">
-	
+
 	<meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+	<meta content="" name="description">
+	<meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<!-- Vendor CSS Files -->
+	<!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -46,7 +48,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
 
-  <!-- Template Main CSS File -->
+	<!-- Template Main CSS File -->
 
 	<!-- theme meta -->
 	<meta name="theme-name" content="small-apps" />
@@ -63,12 +65,54 @@
 	<link rel="stylesheet" href="plugins/aos/aos.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 	<!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style_1.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style_1.css" rel="stylesheet">
 
+	<style !important>
+		/* Add the following styles for the sticky header */
+		.sticky-wrapper {
+			position: relative;
+			z-index: 1000;
+		}
 
+		.sticky-nav {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			background-color: white;
+			/* Adjust the background color as needed */
+			padding: 10px;
+			z-index: 1000;
+			/* Make sure the header is above other elements */
+			border-bottom: 1.5px solid #d3d3d3;
+		}
+
+		.sticky-nav .navbar-brand img {
+			width: 75px;
+			height: 75px;
+		}
+
+		.sticky-nav .navbar-nav {
+			margin-left: auto;
+		}
+
+		.sticky-nav .nav-item {
+			margin-right: 20px;
+		}
+
+		.sticky-nav .nav-link {
+			color: white;
+			/* Adjust the link color as needed */
+		}
+	</style>
 </head>
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
@@ -89,49 +133,49 @@
 			$contact = "";
 			$active_indicator = $_SESSION['current_session'];
 
-			
-			if ($active_indicator == "home") {
-				$home = "active";
-			} else {
-				$home = "";
-			}
 
-			if ($active_indicator == "services") {
-				$services = "active";
-			} else {
-				$services = "";
-			}
+				if ($active_indicator == "home") {
+					$home = "active";
+				} else {
+					$home = "";
+				}
 
-			if ($active_indicator == "investorrel") {
-				$investorrel = "active";
-			} else {
-				$investorrel = "";
-			}
+				if ($active_indicator == "services") {
+					$services = "active";
+				} else {
+					$services = "";
+				}
 
-			if ($active_indicator == "starships") {
-				$starships = "active";
-			} else {
-				$starships = "";
-			}
+				if ($active_indicator == "investorrel") {
+					$investorrel = "active";
+				} else {
+					$investorrel = "";
+				}
 
-			if ($active_indicator == "career") {
-				$career = "active";
-			} else {
-				$career = "";
-			}
+				if ($active_indicator == "starships") {
+					$starships = "active";
+				} else {
+					$starships = "";
+				}
 
-			if ($active_indicator == "about") {
-				$about = "active";
-			} else {
-				$about = "";
-			}
+				if ($active_indicator == "career") {
+					$career = "active";
+				} else {
+					$career = "";
+				}
 
-			if ($active_indicator == "contact") {
-				$contact = "active";
-			} else {
-				$contact = "";
-			}
-			?>
+				if ($active_indicator == "about") {
+					$about = "active";
+				} else {
+					$about = "";
+				}
+
+				if ($active_indicator == "contact") {
+					$contact = "active";
+				} else {
+					$contact = "";
+				}
+				?>
 
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
@@ -163,7 +207,7 @@
 					</li>
 
 
-				</ul>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
