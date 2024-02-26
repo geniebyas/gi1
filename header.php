@@ -180,7 +180,7 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
 					<li>
-					<a class="navbar-brand" href="index.php"><img src="images/logoelevated.jpg" style="width: 75px; height:75px" alt="logo"></a>
+					<a class="navbar-brand" href="index.php"><img src="images\websitelogo.png" style="width: 75px; height:75px" alt="logo"></a>
 					</li>
 					<!-- <li class="nav-item  <?php echo $home; ?>">
 						<a class="nav-link btn" href="index.php">Home</a>
