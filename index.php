@@ -4,8 +4,8 @@ $_SESSION['current_session'] = "home";
 include 'header.php'; 
 
 
-include url('indexpages\promovideo.php');
-include 'indexpages\introduction.php';
+include url('indexpages/promovideo.php');
+include 'indexpages/introduction.php';
 include 'indexpages\shortservices.php';
 include 'indexpages\prototype.php';
 include 'indexpages\slide.php';
