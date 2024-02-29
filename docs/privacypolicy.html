@@ -1,48 +1,107 @@
-<?php
-session_start();
-$_SESSION['current_session'] = "investorrel";  
-include 'header.php'; 
-?>
-<html>
-  <head>
-    <style>
-        .container-inv {
-            background-color: #ffffff;
-            border-radius: 15px;
-            margin-bottom: 10px;
-            padding: 10px;
-        }
-        .pdf-container {
-            border: 1px solid #ddd;
-            border-radius: 15px;
-            padding: 20px;
-        }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            color: #084595;
-        }
-        h2 {
-            font-size: 30px;
-            color: #084595;
-            text-align: left;
-            
-        }
-        .pdf-preview {
-            width: 100%;
-            max-width: 300px;
-        
-        }
-              </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gi1 Privacy Policy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p>This privacy notice for Gi1 ("we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you: Download and use our mobile application (Gi1), or any other application of ours that links to this privacy notice Engage with us in other related ways, including any sales, marketing, or events Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services.</p>
+    <p>If you still have any questions or concerns, please contact us at: <a href="mailto:info@gi1superapp.com">info@gi1superapp.com</a>.</p>
+
+    <h2>Summary of Key Points</h2>
+    <p>This summary provides key points from our privacy notice, but you can find out more details about any of these topics using our table of contents below to find the section you are looking for.</p>
+    <ul>
+      <li>What personal information do we process?</li>
+      <li>Do we process any sensitive personal information?</li>
+      <li>Do we receive any information from third parties?</li>
+      <li>How do we process your information?</li>
+      <li>In what situations and with which types of parties do we share personal information?</li>
+      <li>How do we keep your information safe?</li>
+      <li>What are your rights?</li>
+      <li>How do you exercise your rights?</li>
+    </ul>
+
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#section1">What information do we collect?</a></li>
+      <li><a href="#section2">How do we process your information?</a></li>
+      <li><a href="#section3">When and with whom do we share your personal information?</a></li>
+      <li><a href="#section4">Do we use cookies and other tracking technologies?</a></li>
+      <li><a href="#section5">How do we handle your social logins?</a></li>
+      <li><a href="#section6">How long do we keep your information?</a></li>
+      <li><a href="#section7">How do we keep your information safe?</a></li>
+      <li><a href="#section8">What are your privacy rights?</a></li>
+    </ol>
+
+    <h3 id="section1">1. What information do we collect?</h3>
+    <p>Personal information you disclose to us when you register on the Services, express an interest in obtaining information about us or our products and Services, or when you participate in activities on the Services. This may include names, phone numbers, email addresses, usernames, passwords, and contact preferences.</p>
+    <p>We may also collect sensitive information, such as social media login data and application data, with your consent or as permitted by applicable law.</p>
+    <p>Additionally, we automatically collect certain information when you visit, use, or navigate the Services, such as device and usage information, log and usage data, device data, and location data.</p>
+
+    <h3 id="section2">2. How do we process your information?</h3>
+    <p>We process your information to provide, improve, and administer our Services, communicate with you, ensure security and fraud prevention, comply with the law, and for other purposes with your consent.</p>
+
+    <h3 id="section3">3. When and with whom do we share your personal information?</h3>
+    <p>We may share your information with vendors, consultants, government entities, and other third parties who perform services for us or on our behalf. We may also share your information in connection with business transfers, with affiliates, business partners, and other users of our Services.</p>
+
+    <h3 id="section4">4. Do we use cookies and other tracking technologies?</h3>
+    <p>Yes, we may use cookies and similar tracking technologies to collect and store your information for various purposes, such as to improve user experience and analyze usage patterns.</p>
+
+    <h3 id="section5">5. How do we handle your social logins?</h3>
+    <p>If you choose to register or log in using a social media account, we may have access to certain information about you provided by the social media platform. We use this information only for the purposes described in this privacy notice.</p>
+
+    <h3 id="section6">6. How long do we keep your information?</h3>
+    <p>We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice, unless a longer retention period is required or permitted by law.</p>
+
+    <h3 id="section7">7. How do we keep your information safe?</h3>
+    <p>We implement appropriate technical and organizational security measures to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure.</p>
+
+    <h3 id="section8">8. What are your privacy rights?</h3>
+    <p>You have the right to review, change, or terminate your account at any time. You can also withdraw consent, opt out of marketing communications, and exercise other privacy rights as permitted by applicable law.</p>
     
-  </head>
-  <body>
-    <div align="centre" class="col-md-12">
-                <div class="pdf-container">
-                    <h2>PRIVACY POLICY</h2>
-                    <embed class="pdf-preview" src="materials\Gi1 PRIVACY POLICY.pdf#page=1" type="application/pdf" />
-                    <a href="materials\Gi1 PRIVACY POLICY.pdf" target="_blank">Open GI1 PRIVACY POLICY</a>
-                </div
-  </body>
+    <p>If you have questions or comments about your privacy rights, you may email us at: <a href="mailto:info@gi1superapp.com">info@gi1superapp.com</a>.</p>
+
+    <p><strong>Gi1 Privacy Policy.</strong> <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Disclaimer</a> | <a href="#">Cookie Policy</a> Support | Limit the use of my sensitive personal information | Do not sell or share my personal information | Consent Preferences |</p>
+  </div>
+</body>
 </html>
-<?php include 'footer.php';?>
