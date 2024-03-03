@@ -107,7 +107,7 @@
 <section class="section justify-content-center m-2">
 	<div class="container-investor">
 		<div class="card-header">
-			<h2 class="text-center">Investor Relation</h2>
+			<h2 class="text-center" >Investor Relation</h2>
 		</div>
 		<div class="row">
 			<div align="left" class="col-md-6">
