@@ -200,7 +200,7 @@
                         <li style="color:white"><strong>Gi1 Trading</strong></li>
                         <li style="color:white"><strong>Gi1 Languages</strong></li>
                         <li style="color:white"><strong>Gi1 Kids Zone</strong></li>
-                        <li style="color:white"><strong>Gi1 Real Estate</strong></li>
+                        <li style="color:white"><strong>Gi1 Estate</strong></li>
                         <li style="color:white"><strong>Gi1 Sports</strong></li>
                         <li style="color:white"><strong>Gi1 Freelance</strong></li>
                         <li style="color:white"><strong>Gi1 Comedy</strong></li>
