@@ -127,6 +127,6 @@
 			</div>
 
 		</div>
-		<div class="btn btn-primary m-2" onclick="location.href='investorrel.php'">View More</div>
+		<div class="btn btn-primary m-2" style ="align: centre;"onclick="location.href='investorrel.php'">View More</div>
 	</div>
 </section>
