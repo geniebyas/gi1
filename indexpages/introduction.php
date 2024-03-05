@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-8">
-                <h2 style="color: #FEC93B; text-align:center;" ><strong >INTRODUCING THE "Gi1" SUPER APP</strong></h2>
+                <h2 style="color: #084595; text-align:center;" ><strong >INTRODUCING THE "Gi1" SUPER APP</strong></h2>
                 <p style="color:black; text: size 30px;">'Gi1,' the world's 1<sup>st</sup> super app, embark on a revolutionary digital journey. Uniting top-tier platforms, it serves as the ultimate mall of apps, offering a comprehensive A-Z selection across industries and categories. Elevate your convenience and access all you need in a single, sophisticated app—'Gi1,' where innovation meets seamless functionality.
             </p>
             </div>
