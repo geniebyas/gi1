@@ -8,6 +8,18 @@
 			<img src="images/hiring.jpg" alt="we are hiring" class="image-fluid" style="height: 200px;width: 200px;">
 		</div>
 		<div class="card-footer justify-content-center">
+
+			<div style="
+		position: relative;>
+
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		padding: 20px;"	
+		<a class="btn btn-primary" onclick="location.href='career.php'">View More</a>
+
+			</div>
+			
 			<div class="btn btn-primary m-2" onclick="location.href='career.php'">View More</div>
 		</div>
 	</div>
