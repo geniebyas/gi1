@@ -101,6 +101,13 @@
 		margin: 0;
 		overflow: hidden;
 	}
+	#mainDiv {
+		position: relative;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		padding: 20px;
+	}
 </style>
 
 
@@ -127,6 +134,9 @@
 			</div>
 
 		</div>
-		<div class="btn btn-primary m-2" style ="margin: auto;"onclick="location.href='investorrel.php'">View More</div>
-	</div>
+		<div id="mainDiv">
+	<a class="btn btn-primary" onclick="location.href='investorrel.php'">View More</a>
+
+		</div>
+		
 </section>
