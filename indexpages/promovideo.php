@@ -10,8 +10,8 @@
 	body {
 		margin: 0;
 		padding: 0;
-		font-family: Poppins, sans-serif;
-		background-color: #084595;
+		font-family: Arial, sans-serif;
+		background-color: #f0f0f0;
 	}
 
 	.about-us-section {
@@ -37,7 +37,6 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-        
 	}
 
 	.container-investor {
@@ -163,7 +162,7 @@
    }
 </style>
 
-</head>
+  </head>
   <body>
 
 
@@ -171,28 +170,31 @@
 	<div class="container-investor">
 		
 		<div class="row">
-			<div align="center" class="col-md-12">
-				<div class="pdf-container">
+        <div style="align:left;"class="col-md-2">
+				<div >
+            
+				</div>
+		</div>
+
+		<div style="align:center;" class="col-md-8">
+			<div >
                
 
 
-                <section class="video-section d-flex justify-content-center align-items-center">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
                 <div alig="center" class="video-container">
                     <video border-radius="50px"; width="auto" height="auto" autoplay loop muted>
                         <source src="video\Intro_Gi1.mp4" type="video/mp4">
                     </video>
                 </div>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-				</div>
 			</div>
+		</div>
+        
+        <div style="align:right;" class="col-md-2">
+				<div>
+            
+				</div>
+		</div>
 
 
 		</div>
