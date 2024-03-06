@@ -101,6 +101,16 @@
 		margin: 0;
 		overflow: hidden;
 	}
+	.sec-header {
+        background-color: #FEC93B;
+        border-radius: 15px;
+        border-bottom: none;
+        padding: 10px;
+		font-family: Poppins, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        
+    }
 </style>
 
 
@@ -108,7 +118,7 @@
 
 <section class="section justify-content-center m-2">
 	<div class="container-investor">
-		<div class="card-header">
+		<div class="sec-header">
 			<h2 class="text-center" >Gi1 Prototype</h2>
 		</div>
 		<div class="row">

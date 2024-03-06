@@ -154,13 +154,14 @@
 	}
 	ul{
 		list-style-type: none; /* Remove default bullets */
+		font-family: Poppins, sans-serif;
 	}
 	.card-body li {
             color: white; /* Set text color to white */
 			font-weight: normal;	
 			text-align: left;
 			font-size: 20px; /* Set text size to 16 pixels */
-
+			font-family: Poppins, sans-serif;
 			display: flex; /* Use flexbox for layout */
             align-items: center; /* Align items vertically */
             padding: 10px; /* Adjust padding as needed */
@@ -169,6 +170,7 @@
             width: 1em; /* Set width of the image to match text size */
             height: 1em; /* Set height of the image to match text size */
             margin-right: 10px; /* Add spacing between image and text */
+			font-family: Poppins, sans-serif;
 			filter: invert(100%); /* Invert the color of the image to white */
         }
 

@@ -136,7 +136,10 @@
 			<div align="center" class="col-md-6">
 				<div class="pdf-container">
                 <div class="col-md-12">
+
                 <h2 style="color:#084595; text-align:center;" ><strong>Introducing The "Gi1" SuperApp</strong></h2>
+				<img src="images/vidgenie.png" alt="Mobile Image" class="mobile-image">
+
                 <p style="color:black; text: size 30px;">'Gi1,' the world's 1<sup>st</sup> super app, embark on a revolutionary digital journey. Uniting top-tier platforms, it serves as the ultimate mall of apps, offering a comprehensive A-Z selection across industries and categories. Elevate your convenience and access all you need in a single, sophisticated app—'Gi1,' where innovation meets seamless functionality.
             </p>
             </div>
