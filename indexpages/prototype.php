@@ -109,7 +109,7 @@
 <section class="section justify-content-center m-2">
 	<div class="container-investor">
 		<div class="card-header">
-			<h2 class="text-center" >Prototype Video</h2>
+			<h2 class="text-center" >Gi1 Prototype</h2>
 		</div>
 		<div class="row">
 			<div align="left" class="col-md-4">
@@ -130,6 +130,7 @@
 			</div>
 			<div align="left" class="col-md-4">
 				<div class="pdf-container">
+					<h2>Prototype Video</h2>
 				<section class="video-promo section bg-1">
 			<div class="container">
 				<div class="row">
