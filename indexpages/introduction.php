@@ -63,7 +63,7 @@
 
 	}
     p {
-        font-size: 20px;
+        font-size: 18px;
 		color: blue;
 		text-align: center;
         font-family: Poppins, sans-serif;
