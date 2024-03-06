@@ -10,10 +10,10 @@
 	body {
 		margin: 0;
 		padding: 0;
-		font-family: Arial, sans-serif;
+		font-family: Poppins, sans-serif;
 		background-color: #f0f0f0;
 	}
-
+ 
 	.about-us-section {
 		text-align: center;
 		padding: 80px 0;
