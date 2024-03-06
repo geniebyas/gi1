@@ -107,6 +107,7 @@
 		color: #fff;
 		text-align: center;
 		padding: 20px;
+		font-family: Poppins, sans-serif;
 	}
 </style>
 

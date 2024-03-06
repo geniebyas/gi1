@@ -130,7 +130,7 @@
 			</div>
 			<div align="left" class="col-md-4">
 				<div class="pdf-container">
-					<h2>Prototype Video</h2>
+					<h2 style="align: center;">Prototype Video</h2>
 				<section class="video-promo section bg-1">
 			<div class="container">
 				<div class="row">
