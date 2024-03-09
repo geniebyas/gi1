@@ -10,9 +10,10 @@ include 'common/connection.php';
 <head>
 <style>
 		 body {
-            background: linear-gradient(to bottom right, #FEC93B, #084595);
+            background: white;
             font-family: Arial, sans-serif;
-        }
+			)	
+        
 		.images-container{
 			display: flex;
 			flex-wrap: wrap;

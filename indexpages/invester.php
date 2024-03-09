@@ -38,12 +38,14 @@
 		margin-top: 10px;
 		margin-bottom: 10px;
 		padding: 20px;
+		align: center;
 	}
 
 	.pdf-container {
 		border: 1px solid #ddd;
 		border-radius: 15px;
 		padding: 20px;
+		text-align: center;
 	}
 
 	h1 {
@@ -55,7 +57,7 @@
 	h2 {
 		font-size: 30px;
 		color: #084595;
-		text-align: left;
+		text-align: center;
 
 	}
 
@@ -101,6 +103,16 @@
 		margin: 0;
 		overflow: hidden;
 	}
+	.sec-header {
+        background-color: #FEC93B;
+        border-radius: 15px;
+        border-bottom: none;
+        padding: 10px;
+		font-family: Poppins, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        
+    }
 	#mainDiv {
 		position: relative;
 		width: 100%;
@@ -114,12 +126,12 @@
 
 <section class="section justify-content-center m-2">
 	<div class="container-investor">
-		<div class="card-header">
+		<div class="sec-header">
 			<h2 class="text-center" >Investor Relation</h2>
 		</div>
 		<div class="row">
 			<div align="left" class="col-md-6">
-				<div class="pdf-container">
+				<div class="pdf-container" >
 					<h2>Pitch Deck</h2>
 					<embed class="pdf-preview" src="materials\pdf Gi 1 pitchdeck.pdf#page=1" type="application/pdf" />
 					<a href="materials\pdf Gi 1 pitchdeck.pdf" target="_blank">Open PITCH DECK</a>

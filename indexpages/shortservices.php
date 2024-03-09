@@ -3,7 +3,7 @@
 	body {
 		margin: 0;
 		padding: 0;
-		font-family: Poppins, sans-serif;
+		font-family: Avenir Next, sans-serif;
 		background-color: #f0f0f0;
 	}
 
@@ -41,7 +41,7 @@
 	}
 
 	.pdf-container {
-		border: 1px solid #ddd;
+		margin-top: 10px;
 		border-radius: 15px;
 		padding: 20px;
 	}
@@ -54,8 +54,15 @@
 
 	h2 {
 		font-size: 30px;
-		color: #084595;
+		color: #ffffff;
 		text-align: left;
+		font-family: Poppins, sans-serif;
+
+	}
+	h4 {
+		font-size: 30px;
+		color: #084595;
+		text-align: center;
 		font-family: Poppins, sans-serif;
 
 	}
@@ -127,17 +134,17 @@
         border-radius: 30px;
         border-bottom: none;
         padding: 10px;
-		font-family: Poppins, sans-serif;
+		font-family: Avenir Next, sans-serif;
         text-align: center;
         font-weight: bold;
         
     }
 	.sec-header {
-        background-color: #FEC93B;
+        background: linear-gradient(135deg,  #084595, #FEC93B); /* Gradient background */
         border-radius: 15px;
         border-bottom: none;
         padding: 10px;
-		font-family: Poppins, sans-serif;
+		font-family: Avenir Next, sans-serif;
         text-align: center;
         font-weight: bold;
         
@@ -187,7 +194,7 @@
 				<div class="pdf-container">
 				<div class="card">
                     <div class="card-header">
-                        <h4 >Top Platforms</h4>
+                        <h4 >Top Industries</h4>
                     </div>
                     <div class="card-body">
                         <ul>
@@ -243,7 +250,7 @@
 				<div class="pdf-container">
 				<div class="card">
                     <div class="card-header">
-                        <h4>Other Platforms</h4>
+                        <h4>Other Services</h4>
                     </div>
                     <div class="card-body">
 					<ul>
@@ -256,6 +263,7 @@
                         <li><img src="images/icons/Metaverse.png" alt="Icon">Gi1 A.I.</li>
                         <li><img src="images/icons/App lock.png" alt="Icon">Gi1 App Locks</li>
                         <li><img src="images/icons/Metaverse.png" alt="Icon">Gi1 Multiverse</li>
+						<li><img src="images/icons/Education.png" alt="Icon">Gi1 Notes</li>
                         </ul>
                     </div>
                 </div>
@@ -266,7 +274,7 @@
 
 		</div>
 		<div id="mainDiv">
-	<a class="btn btn-primary" onclick="location.href='investorrel.php'">View More</a>
+	<a class="btn btn-primary" onclick="location.href='services.php'">View More</a>
 
 		</div>
 		

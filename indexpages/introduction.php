@@ -25,15 +25,15 @@
 		margin: 20px 0;
 	}
 
-	.container {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+		background-color: #black;
 	}
 
 	.container-investor {
-		background-color: #ffffff;
+		background: white; /* Gradient background */
 		border-radius: 20px;
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -133,27 +133,24 @@
 	<div class="container-investor">
 		
 		<div class="row">
+		<div align="center" class="col-md-6">
+				<div class="pdf-container">
+                <div class="col-md-12">
+                <img src="images/wel.png" alt="Mobile Image" class="mobile-image">
+            </div>
+		</div>
+			</div>
 			<div align="center" class="col-md-6">
 				<div class="pdf-container">
                 <div class="col-md-12">
 
                 <h2 style="color:#084595; text-align:center;" ><strong>Introducing The "Gi1" SuperApp</strong></h2>
-				<img src="images/vidgenie.png" alt="Mobile Image" class="mobile-image">
-
-                <p style="color:black; text: size 30px;">'Gi1,' the world's 1<sup>st</sup> super app, embark on a revolutionary digital journey. Uniting top-tier platforms, it serves as the ultimate mall of apps, offering a comprehensive A-Z selection across industries and categories. Elevate your convenience and access all you need in a single, sophisticated app—'Gi1,' where innovation meets seamless functionality.
+				
+			<p style="color:black; text: size 30px;">'Gi1,' the world's first super app! It's It's your all-in-one solution for every digital need. With 'Gi1,' access top-tier platforms and a wide range of services, all in one place. Say goodbye to multiple apps – 'Gi1' has you covered for everything in just 1 Super App!"
             </p>
             </div>
-				</div>
+		</div>
 			</div>
-
-			<div align="center" class="col-md-6">
-				<div class="pdf-container">
-                <div class="col-md-12">
-                <img src="images/phone1.png" alt="Mobile Image" class="mobile-image">
-            </div>
-				</div>
-			</div>
-
 		</div>
 		
 		
