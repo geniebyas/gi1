@@ -10,10 +10,9 @@ include 'common/connection.php';
 <head>
 <style>
 		 body {
-            background: white;
+            background:white;
             font-family: Arial, sans-serif;
-			)	
-        
+        }
 		.images-container{
 			display: flex;
 			flex-wrap: wrap;
