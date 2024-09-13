@@ -155,19 +155,39 @@
 
     /* Custom CSS for Download Button */
     .download-btn {
-      display: inline-block;
-      background-color: #28a745;
+      display: block;
+      background-color: #084595; /* Use the color from existing CSS */
       color: white;
-      padding: 12px 24px;
+      padding: 15px;
       font-size: 18px;
       border-radius: 30px;
-      transition: background-color 0.3s ease;
+      transition: all 0.5s ease;
       text-align: center;
       text-decoration: none;
+      width: 100%; /* Button width will match the container width */
+      max-width: 400px; /* Max width matching the video container width */
+      margin: 20px auto; /* Center the button */
     }
 
     .download-btn:hover {
       background-color: #218838;
+      transform: scale(1.05);
+    }
+
+    /* Animation */
+    @keyframes fadeInButton {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animated-btn {
+      animation: fadeInButton 1s ease-in-out forwards;
     }
   </style>
 </head>
@@ -189,10 +209,10 @@
       <div class="col-md-2"></div>
     </div>
 
-    <!-- Download App Button -->
+    <!-- Download App Button with Animation -->
     <div class="row mt-4">
       <div class="col text-center">
-        <a href="https://play.google.com/store/apps/details?id=com.gi1.gi1infoapp" class="download-btn">Download Our Android App</a>
+        <a href="https://play.google.com/store/apps/details?id=com.gi1.gi1infoapp" class="download-btn animated-btn">Download Our Android App</a>
       </div>
     </div>
   </div>
