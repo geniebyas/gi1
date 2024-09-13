@@ -155,7 +155,9 @@
 
     /* Custom CSS for Download Button */
     .download-btn {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background-color: #084595; /* Use the color from existing CSS */
       color: white;
       padding: 15px;
@@ -172,6 +174,13 @@
     .download-btn:hover {
       background-color: #218838;
       transform: scale(1.05);
+    }
+
+    /* Icon Style */
+    .download-btn img {
+      margin-right: 10px;
+      width: 24px;
+      height: 24px;
     }
 
     /* Animation */
@@ -209,10 +218,13 @@
       <div class="col-md-2"></div>
     </div>
 
-    <!-- Download App Button with Animation -->
+    <!-- Download App Button with Play Store Icon and Animation -->
     <div class="row mt-4">
       <div class="col text-center">
-        <a href="https://play.google.com/store/apps/details?id=com.gi1.gi1infoapp" class="download-btn animated-btn">Download Our Android App</a>
+        <a href="https://play.google.com/store/apps/details?id=com.gi1.gi1infoapp" class="download-btn animated-btn">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store Icon">
+          Download Our Android App
+        </a>
       </div>
     </div>
   </div>
