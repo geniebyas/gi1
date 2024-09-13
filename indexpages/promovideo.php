@@ -168,52 +168,34 @@
 
 <section class="section justify-content-center m-2">
 	<div class="container-investor">
-		
 		<div class="row">
-        <div style="align:left;"class="col-md-2">
-				<div >
-            
+			<div style="align:left;" class="col-md-2">
+				<div></div>
+			</div>
+
+			<div style="align:center;" class="col-md-8">
+				<div>
+					<div class="video-container" style="text-align:center;">
+						<video style="border-radius:50px;" width="auto" height="auto" autoplay loop muted>
+							<source src="video/Intro_Gi1.mp4" type="video/mp4">
+						</video>
+					</div>
+					
+					<!-- Add the download button here -->
+					<div class="mt-3" style="text-align: center;">
+						<a href="https://play.google.com/store/apps/details?id=com.gi1.gi1infoapp" class="btn btn-primary" style="padding: 10px 20px; text-decoration: none;">
+							Download Android App
+						</a>
+					</div>
 				</div>
-		</div>
-
-		<div style="align:center;" class="col-md-8">
-			<div >
-               
-
-
-                <div alig="center" class="video-container">
-                    <video border-radius="50px"; width="auto" height="auto" autoplay loop muted>
-                        <source src="video\Intro_Gi1.mp4" type="video/mp4">
-                    </video>
-                </div>
-
+			</div>
+			
+			<div style="align:right;" class="col-md-2">
+				<div></div>
 			</div>
 		</div>
-        
-        <div style="align:right;" class="col-md-2">
-				<div>
-            
-				</div>
-		</div>
-
-
-		</div>
-		
-		
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
+	</div>
+					</section>
 
 
 
